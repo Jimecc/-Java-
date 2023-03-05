@@ -5,15 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="8be54054-fead-4a9b-8401-2e24057a3832" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/nacos-restful-consumer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-restful-consumer/src/main/java/com/jim/nacos/consumer/SpringRestConsumerBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-restful-consumer/src/main/java/com/jim/nacos/consumer/controller/RestConsumerController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-restful-consumer/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-restful-provider/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-restful-provider/src/main/java/com/jim/nacos/provider/SpringRestProviderBootstrap.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-restful-provider/src/main/java/com/jim/nacos/provider/controller/RestProviderController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/nacos-restful-provider/src/main/resources/application.yml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-dubbo-service2/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-dubbo-service2/service2-api/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-dubbo-service2/service2-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,7 +140,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1677824958801</updated>
-      <workItem from="1677824963997" duration="12649000" />
+      <workItem from="1677824963997" duration="13714000" />
     </task>
     <servers />
   </component>

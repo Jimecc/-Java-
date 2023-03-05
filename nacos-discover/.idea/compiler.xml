@@ -10,5 +10,9 @@
         <module name="nacos-restful-provider" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="nacos-dubbo-discover2" target="8" />
+      <module name="service2-api" target="8" />
+    </bytecodeTargetLevel>
   </component>
 </project>
