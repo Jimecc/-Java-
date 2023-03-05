@@ -6,13 +6,16 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="service1-server" />
+        <module name="service2-api" />
+        <module name="service1-api" />
         <module name="nacos-restful-consumer" />
+        <module name="service2-server" />
         <module name="nacos-restful-provider" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="nacos-dubbo-discover2" target="8" />
-      <module name="service2-api" target="8" />
     </bytecodeTargetLevel>
   </component>
 </project>

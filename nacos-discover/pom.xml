@@ -11,6 +11,7 @@
     <module>nacos-restful-provider</module>
     <module>nacos-restful-consumer</module>
     <module>nacos-dubbo-service2</module>
+      <module>nacos-dubbo-service1</module>
   </modules>
   <name>nacos-discover</name>
   <packaging>pom</packaging>
