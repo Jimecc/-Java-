@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="8be54054-fead-4a9b-8401-2e24057a3832" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/nacos-restful-consumer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-restful-consumer/src/main/java/com/jim/nacos/consumer/SpringRestConsumerBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-restful-consumer/src/main/java/com/jim/nacos/consumer/controller/RestConsumerController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-restful-consumer/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-restful-provider/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-restful-provider/src/main/java/com/jim/nacos/provider/SpringRestProviderBootstrap.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-restful-provider/src/main/java/com/jim/nacos/provider/controller/RestProviderController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/nacos-restful-provider/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="userSettingsFile" value="$USER_HOME$/DevTools/Maven/conf/settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="2MUb9frqvyHzHQAW2ZZgo6E1ABE" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="ExpandSpringBootJavaOptionsPanel" value="true" />
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_directory_selection" value="$PROJECT_DIR$/nacos-restful-provider/src/main/java/com/jim/nacos" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/nacos-restful-consumer/src/main/resources" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/nacos-restful-consumer/src/main/resources" />
+      <recent name="$PROJECT_DIR$/nacos-restful-consumer/src/main/java" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Spring Boot.SpringRestConsumerBootstrap">
+    <configuration name="SpringRestConsumerBootstrap" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="nacos-restful-consumer" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jim.nacos.consumer.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jim.nacos.consumer.SpringRestConsumerBootstrap" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRestProviderBootstrap(56010)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true">
+      <module name="nacos-restful-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jim.nacos.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jim.nacos.provider.SpringRestProviderBootstrap" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=56010" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringRestProviderBootstrap(56011)" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="nacos-restful-provider" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.jim.nacos.provider.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.jim.nacos.provider.SpringRestProviderBootstrap" />
+      <option name="VM_PARAMETERS" value="-Dserver.port=56011" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="SHORTEN_COMMAND_LINE" value="NONE" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringRestProviderBootstrap(56011)" />
+      <item itemvalue="Spring Boot.SpringRestConsumerBootstrap" />
+      <item itemvalue="Spring Boot.SpringRestProviderBootstrap(56010)" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringRestConsumerBootstrap" />
+        <item itemvalue="Spring Boot.SpringRestProviderBootstrap(56010)" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="8be54054-fead-4a9b-8401-2e24057a3832" name="Changes" comment="" />
+      <created>1677824958801</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677824958801</updated>
+      <workItem from="1677824963997" duration="12649000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+</project>
