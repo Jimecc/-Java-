@@ -1,0 +1,60 @@
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
+            17:54:44,571 [1;31mERROR[m [main][LoggingFailureAnalysisReporter.java:42] ‐ 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target [Bindable@66deec87 type = org.springframework.boot.autoconfigure.web.servlet.MultipartProperties, value = 'provided', annotations = array<Annotation>[@org.springframework.boot.context.properties.ConfigurationProperties(ignoreInvalidFields=false, ignoreUnknownFields=false, value=spring.servlet.multipart, prefix=spring.servlet.multipart)]] failed:
+
+    Property: spring.servlet.multipart.enable
+    Value: true
+    Origin: class path resource [bootstrap.yml]:35:15
+    Reason: The elements [spring.servlet.multipart.enable] were left unbound.
+
+Action:
+
+Update your application's configuration
+
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
+            17:55:31,450 [1;31mERROR[m [main][LoggingFailureAnalysisReporter.java:42] ‐ 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target [Bindable@25f723b0 type = org.springframework.boot.autoconfigure.web.servlet.MultipartProperties, value = 'provided', annotations = array<Annotation>[@org.springframework.boot.context.properties.ConfigurationProperties(ignoreInvalidFields=false, ignoreUnknownFields=false, value=spring.servlet.multipart, prefix=spring.servlet.multipart)]] failed:
+
+    Property: spring.servlet.multipart.enable
+    Value: true
+    Origin: class path resource [bootstrap.yml]:35:15
+    Reason: The elements [spring.servlet.multipart.enable] were left unbound.
+
+Action:
+
+Update your application's configuration
+
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
+            17:56:39,280 [1;31mERROR[m [main][LoggingFailureAnalysisReporter.java:42] ‐ 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Binding to target [Bindable@2740e316 type = org.springframework.boot.autoconfigure.web.servlet.MultipartProperties, value = 'provided', annotations = array<Annotation>[@org.springframework.boot.context.properties.ConfigurationProperties(ignoreInvalidFields=false, ignoreUnknownFields=false, value=spring.servlet.multipart, prefix=spring.servlet.multipart)]] failed:
+
+    Property: spring.servlet.multipart.enable
+    Value: true
+    Origin: class path resource [bootstrap.yml]:35:15
+    Reason: The elements [spring.servlet.multipart.enable] were left unbound.
+
+Action:
+
+Update your application's configuration
+

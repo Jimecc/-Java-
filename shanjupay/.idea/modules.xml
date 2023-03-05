@@ -4,7 +4,10 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/shanjupay.iml" filepath="$PROJECT_DIR$/.idea/shanjupay.iml" />
       <module fileurl="file://$PROJECT_DIR$/shanjupay-common/shanjupay-common.iml" filepath="$PROJECT_DIR$/shanjupay-common/shanjupay-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant.iml" filepath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/shanjupay-merchant-api.iml" filepath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/shanjupay-merchant-api.iml" />
       <module fileurl="file://$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" filepath="$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" />
+      <module fileurl="file://$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/shanjupay-merchant-server.iml" filepath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/shanjupay-merchant-server.iml" />
     </modules>
   </component>
 </project>

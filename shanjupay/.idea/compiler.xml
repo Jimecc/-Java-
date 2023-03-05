@@ -7,8 +7,10 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
-        <module name="shanjupay-common" />
+        <module name="shanjupay-merchant-api" />
         <module name="shanjupay-merchant-application" />
+        <module name="shanjupay-common" />
+        <module name="shanjupay-merchant-server" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
@@ -16,7 +18,10 @@
       <module name="shanjupay-common" target="1.8" />
       <module name="shanjupay-gateway" target="1.8" />
       <module name="shanjupay-gateway-service" target="1.8" />
+      <module name="shanjupay-merchant" target="1.8" />
+      <module name="shanjupay-merchant-api" target="1.8" />
       <module name="shanjupay-merchant-application" target="1.8" />
+      <module name="shanjupay-merchant-server" target="1.8" />
     </bytecodeTargetLevel>
   </component>
   <component name="JavacSettings">
@@ -24,7 +29,10 @@
       <module name="shanjupay" options="-parameters" />
       <module name="shanjupay-common" options="-parameters -bootclasspath $USER_HOME$/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/rt.jar;$USER_HOME$/Library/Java/JavaVirtualMachines/jdk1.8.0_202.jdk/Contents/Home/jre/lib/jce.jar" />
       <module name="shanjupay-gateway-service" options="-parameters" />
+      <module name="shanjupay-merchant" options="" />
+      <module name="shanjupay-merchant-api" options="-parameters" />
       <module name="shanjupay-merchant-application" options="-parameters" />
+      <module name="shanjupay-merchant-server" options="-parameters" />
     </option>
   </component>
 </project>
