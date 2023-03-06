@@ -6,3 +6,25 @@
             22:00:29,118 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
 [${project.name}][${env:SERVER_PORT}] 2023‐03‐06
             22:00:59,146 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            22:01:00,447 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xf3cc9201, L:/127.0.0.1:62974 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            22:01:00,461 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            22:01:29,192 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            22:01:59,219 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            22:02:00,462 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xf3cc9201, L:/127.0.0.1:62974 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            22:02:00,478 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            22:02:29,286 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            22:02:59,327 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            22:03:00,483 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xf3cc9201, L:/127.0.0.1:62974 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            22:03:00,506 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            22:03:29,362 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
