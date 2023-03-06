@@ -4,7 +4,17 @@
     <option name="autoReloadType" value="ALL" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="af676df8-9b88-4e33-add3-e3037e2e5f86" name="Default Changelist" comment="" />
+    <list default="true" id="af676df8-9b88-4e33-add3-e3037e2e5f86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/util/QiniuUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/${project.name}_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_error.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_info.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-common/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-common/shanjupay-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-common/shanjupay-common.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/jim/shanjupay/merchant/convert/MerchantConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/jim/shanjupay/merchant/convert/MerchantConvertImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/shanjupay-merchant-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/shanjupay-merchant-api.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/shanjupay-merchant-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/shanjupay-merchant-server.iml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -139,7 +149,7 @@
       <recent name="com.shanjupei.merchant" />
     </key>
   </component>
-  <component name="RunManager" selected="Spring Boot.MerchantApplicationBootstrap">
+  <component name="RunManager" selected="Application.QiniuUtils">
     <configuration name="MerchantConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shanjupay.merchant.convert.MerchantConvert" />
       <module name="shanjupay-merchant-server" />
@@ -166,18 +176,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="RestTemplateTest.getSmsCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shanjupay-merchant-application" />
+    <configuration name="QiniuUtils" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shanjupay.common.util.QiniuUtils" />
+      <module name="shanjupay-common" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jim.shanjupay.merchant.*" />
+          <option name="PATTERN" value="com.shanjupay.common.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jim.shanjupay.merchant" />
-      <option name="MAIN_CLASS_NAME" value="com.jim.shanjupay.merchant.RestTemplateTest" />
-      <option name="METHOD_NAME" value="getSmsCode" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -211,19 +218,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="JUnit.RestTemplateTest.getSmsCode" />
       <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
       <item itemvalue="Spring Boot.MerchantBootstrap" />
       <item itemvalue="Application.MyBatisPlusGenerator" />
       <item itemvalue="Application.MerchantConvert" />
+      <item itemvalue="Application.QiniuUtils" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.QiniuUtils" />
         <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
         <item itemvalue="Spring Boot.MerchantBootstrap" />
         <item itemvalue="Application.MerchantConvert" />
         <item itemvalue="Application.MyBatisPlusGenerator" />
-        <item itemvalue="JUnit.RestTemplateTest.getSmsCode" />
       </list>
     </recent_temporary>
   </component>
@@ -245,7 +252,7 @@
       <workItem from="1574404354823" duration="998000" />
       <workItem from="1678003857934" duration="19396000" />
       <workItem from="1678062488942" duration="10652000" />
-      <workItem from="1678077448312" duration="23275000" />
+      <workItem from="1678077448312" duration="26029000" />
     </task>
     <servers />
   </component>
