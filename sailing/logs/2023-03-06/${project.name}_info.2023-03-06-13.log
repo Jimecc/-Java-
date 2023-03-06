@@ -1,0 +1,30 @@
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:57,316 INFO [main][StartupInfoLogger.java:50] - Starting SailingBootstrap on jim.lan with PID 4805 (/Users/hsk/Documents/GitHub/-Java-/sailing/target/classes started by hsk in /Users/hsk/Documents/GitHub/-Java-/sailing)
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:57,322 INFO [main][SpringApplication.java:675] - No active profile set, falling back to default profiles: default
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:58,572 INFO [main][RepositoryConfigurationDelegate.java:244] - Multiple Spring Data modules found, entering strict repository configuration mode!
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:58,578 INFO [main][RepositoryConfigurationDelegate.java:126] - Bootstrapping Spring Data repositories in DEFAULT mode.
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:58,635 INFO [main][RepositoryConfigurationDelegate.java:182] - Finished Spring Data repository scanning in 41ms. Found 0 repository interfaces.
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:59,345 INFO [main][TomcatWebServer.java:90] - Tomcat initialized with port(s): 56085 (http)
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:59,360 INFO [main][DirectJDKLog.java:173] - Initializing ProtocolHandler ["http-nio-56085"]
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:59,367 INFO [main][DirectJDKLog.java:173] - Starting service [Tomcat]
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:59,368 INFO [main][DirectJDKLog.java:173] - Starting Servlet engine: [Apache Tomcat/9.0.16]
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:59,436 INFO [main][DirectJDKLog.java:173] - The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hsk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:59,536 INFO [main][DirectJDKLog.java:173] - Initializing Spring embedded WebApplicationContext
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:42:59,537 INFO [main][ServletWebServerApplicationContext.java:296] - Root WebApplicationContext: initialization completed in 2163 ms
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:00,229 INFO [main][EndpointLinksResolver.java:59] - Exposing 2 endpoint(s) beneath base path '/actuator'
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:00,292 INFO [main][PropertySourcedRequestMappingHandlerMapping.java:69] - Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:00,408 INFO [main][ExecutorConfigurationSupport.java:171] - Initializing ExecutorService 'applicationTaskExecutor'
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:00,702 INFO [main][DocumentationPluginsBootstrapper.java:160] - Context refreshed
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:00,714 INFO [main][DocumentationPluginsBootstrapper.java:163] - Found 1 custom documentation plugin(s)
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:00,732 INFO [main][ApiListingReferenceScanner.java:41] - Scanning for api listing references
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:00,865 INFO [main][DirectJDKLog.java:173] - Starting ProtocolHandler ["http-nio-56085"]
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:00,889 INFO [main][TomcatWebServer.java:204] - Tomcat started on port(s): 56085 (http) with context path '/sailing'
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:00,897 INFO [main][StartupInfoLogger.java:59] - Started SailingBootstrap in 4.024 seconds (JVM running for 5.108)
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:01,132 INFO [RMI TCP Connection(3)-192.168.199.177][DirectJDKLog.java:173] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:01,135 INFO [RMI TCP Connection(3)-192.168.199.177][FrameworkServlet.java:524] - Initializing Servlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:01,155 INFO [RMI TCP Connection(3)-192.168.199.177][FrameworkServlet.java:546] - Completed initialization in 19 ms
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:01,230 INFO [RMI TCP Connection(2)-192.168.199.177][EpollProvider.java:68] - Starting without optional epoll library
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:01,235 INFO [RMI TCP Connection(2)-192.168.199.177][KqueueProvider.java:70] - Starting without optional kqueue library
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:43:31,242 INFO [http-nio-56085-exec-1][QCloudSmsService.java:56] - 「闪聚支付」尊敬的12345用户，您的验证码为『899128』，请勿告诉任何人哦~
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:46:50,616 INFO [http-nio-56085-exec-3][QCloudSmsService.java:56] - 「闪聚支付」尊敬的12345678901用户，您的验证码为『949690』，请勿告诉任何人哦~
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:47:39,074 INFO [http-nio-56085-exec-4][QCloudSmsService.java:56] - 「闪聚支付」尊敬的12345678901用户，您的验证码为『026897』，请勿告诉任何人哦~
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 13:49:19,496 INFO [http-nio-56085-exec-6][QCloudSmsService.java:56] - 「闪聚支付」尊敬的12345678901用户，您的验证码为『961567』，请勿告诉任何人哦~

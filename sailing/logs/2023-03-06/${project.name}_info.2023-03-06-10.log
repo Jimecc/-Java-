@@ -1,0 +1,4 @@
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 10:05:54,286 INFO [http-nio-56085-exec-10][QCloudSmsService.java:56] - 「闪聚支付」尊敬的123456用户，您的验证码为『699261』，请勿告诉任何人哦~
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 10:08:50,220 INFO [http-nio-56085-exec-2][QCloudSmsService.java:56] - 「闪聚支付」尊敬的123456用户，您的验证码为『196524』，请勿告诉任何人哦~
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 10:09:28,224 INFO [http-nio-56085-exec-4][QCloudSmsService.java:56] - 「闪聚支付」尊敬的123456用户，您的验证码为『861940』，请勿告诉任何人哦~
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 10:20:05,691 INFO [http-nio-56085-exec-6][QCloudSmsService.java:56] - 「闪聚支付」尊敬的123456用户，您的验证码为『125381』，请勿告诉任何人哦~
