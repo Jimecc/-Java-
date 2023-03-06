@@ -949,3 +949,115 @@ return extension.getValidator(arg0);
             14:32:40,161 [32mINFO[m [main][EndpointLinksResolver.java:59] ‐ Exposing 4 endpoint(s) beneath base path '/actuator'
 [${project.name}][${env:SERVER_PORT}] 2023‐03‐06
             14:32:40,345 [32mINFO[m [main][PropertySourcedRequestMappingHandlerMapping.java:69] ‐ Mapped URL path [/v2/api-docs] onto method [public org.springframework.http.ResponseEntity<springfox.documentation.spring.web.json.Json> springfox.documentation.swagger2.web.Swagger2Controller.getDocumentation(java.lang.String,javax.servlet.http.HttpServletRequest)]
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,378 [33mWARN[m [main][URLConfigurationSource.java:121] ‐ No URLs will be polled as dynamic configuration sources.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,380 [32mINFO[m [main][URLConfigurationSource.java:122] ‐ To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,385 [33mWARN[m [main][URLConfigurationSource.java:121] ‐ No URLs will be polled as dynamic configuration sources.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,386 [32mINFO[m [main][URLConfigurationSource.java:122] ‐ To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,426 [36mDEBUG[m [main][TraversableResolvers.java:60] ‐ Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,428 [36mDEBUG[m [main][ResourceBundleMessageInterpolator.java:89] ‐ Loaded expression factory via original TCCL
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,440 [36mDEBUG[m [main][TraversableResolvers.java:60] ‐ Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,441 [36mDEBUG[m [main][ConfigurationImpl.java:148] ‐ Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,442 [36mDEBUG[m [main][ConfigurationImpl.java:180] ‐ Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,443 [36mDEBUG[m [main][ConfigurationImpl.java:194] ‐ Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,446 [36mDEBUG[m [main][ValidationXmlParser.java:120] ‐ Trying to load META-INF/validation.xml for XML based Validator configuration.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,447 [36mDEBUG[m [main][ResourceLoaderHelper.java:53] ‐ Trying to load META-INF/validation.xml via user class loader
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,447 [36mDEBUG[m [main][ResourceLoaderHelper.java:60] ‐ Trying to load META-INF/validation.xml via TCCL
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,447 [36mDEBUG[m [main][ResourceLoaderHelper.java:66] ‐ Trying to load META-INF/validation.xml via Hibernate Validator's class loader
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,447 [36mDEBUG[m [main][ValidationXmlParser.java:127] ‐ No META-INF/validation.xml found. Using annotation based configuration only.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,453 [36mDEBUG[m [main][ValidatorFactoryImpl.java:578] ‐ HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,454 [36mDEBUG[m [main][ValidatorFactoryImpl.java:579] ‐ HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,455 [36mDEBUG[m [main][ValidatorFactoryImpl.java:580] ‐ HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,455 [36mDEBUG[m [main][ValidatorFactoryImpl.java:581] ‐ HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,455 [36mDEBUG[m [main][ValidatorFactoryImpl.java:582] ‐ HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,545 [32mINFO[m [main][ExecutorConfigurationSupport.java:171] ‐ Initializing ExecutorService 'applicationTaskExecutor'
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,822 [32mINFO[m [main][ExecutorConfigurationSupport.java:171] ‐ Initializing ExecutorService
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:40,841 [32mINFO[m [main][DubboConfigBindingBeanPostProcessor.java:109] ‐ The properties of bean [name : org.apache.dubbo.config.ProtocolConfig#0] have been binding by prefix of configuration properties : dubbo.protocol
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,304 [36mDEBUG[m [main][DubboServiceMetadataRepository.java:273] ‐ The metadata of Dubbo service[name : merchant-service] has been initialized
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,308 [32mINFO[m [main][DubboServiceMetadataRepository.java:262] ‐ The metadata of Dubbo services has been initialized
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,369 [32mINFO[m [main][DocumentationPluginsBootstrapper.java:160] ‐ Context refreshed
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,378 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,379 [32mINFO[m [main][DocumentationPluginsBootstrapper.java:163] ‐ Found 1 custom documentation plugin(s)
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,384 [32mINFO[m [com.alibaba.nacos.naming.client.listener][DubboServiceDiscoveryAutoConfiguration.java:157] ‐ The event of the service instances[name : merchant-service , size : 1] change is about to be dispatched
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,389 [32mINFO[m [com.alibaba.nacos.naming.client.listener][AbstractSpringCloudRegistry.java:213] ‐ The Dubbo Service URL[ID : consumer://192.168.199.177/com.shanjupay.merchant.api.MerchantService] is being subscribed for service[name : merchant-service]
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,398 [36mDEBUG[m [DubboClientHandler-192.168.199.177:20893-thread-1][DecodeHandler.java:59] ‐  [DUBBO] Decode decodeable message org.apache.dubbo.rpc.protocol.dubbo.DecodeableRpcResult, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,400 [36mDEBUG[m [com.alibaba.nacos.naming.client.listener][AbstractSpringCloudRegistry.java:289] ‐ The subscribed URL[consumer://192.168.199.177/com.shanjupay.merchant.api.MerchantService?application=merchant-application&category=providers,configurators,routers&check=false&dubbo=2.0.2&generic=false&interface=com.shanjupay.merchant.api.MerchantService&lazy=false&methods=queryMerchantByID&pid=6337&qos.enable=false&qos.port=22310&release=2.7.3&retries=-1&side=consumer&sticky=false&timeout=3000&timestamp=1678084358220] will notify all URLs : [dubbo://192.168.199.177:20893?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.shanjupay.merchant.api.MerchantService&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&interface=com.shanjupay.merchant.api.MerchantService&methods=queryMerchantByID&pid=3336&register=true&release=2.7.3&side=provider&timestamp=1678079349303]
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,410 [32mINFO[m [main][ApiListingReferenceScanner.java:41] ‐ Scanning for api listing references
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,546 [32mINFO[m [main][DirectJDKLog.java:173] ‐ Starting ProtocolHandler ["http-nio-57010"]
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,580 [32mINFO[m [main][TomcatWebServer.java:204] ‐ Tomcat started on port(s): 57010 (http) with context path '/merchant'
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,615 [33mWARN[m [main][AbstractInterfaceConfig.java:265] ‐  [DUBBO] There's no valid metadata config found, if you are using the simplified mode of registry url, please make sure you have a metadata address configured properly., dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,661 [32mINFO[m [main][ServiceConfig.java:643] ‐  [DUBBO] Export dubbo service com.alibaba.cloud.dubbo.service.DubboMetadataService to local registry url : injvm://127.0.0.1/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-application&bind.ip=192.168.199.177&bind.port=20891&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-application&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=6337&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678084361617&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,661 [32mINFO[m [main][ServiceConfig.java:581] ‐  [DUBBO] Export dubbo service com.alibaba.cloud.dubbo.service.DubboMetadataService to url dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-application&bind.ip=192.168.199.177&bind.port=20891&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-application&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=6337&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678084361617&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,661 [32mINFO[m [main][AbstractInterfaceConfig.java:237] ‐  [DUBBO] There's no valid monitor config found, if you want to open monitor statistics for Dubbo, please make sure your monitor is configured properly., dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,662 [32mINFO[m [main][ServiceConfig.java:595] ‐  [DUBBO] Register dubbo service com.alibaba.cloud.dubbo.service.DubboMetadataService url dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-application&bind.ip=192.168.199.177&bind.port=20891&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-application&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=6337&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678084361617&version=1.0.0 to registry registry://127.0.0.1:8848/org.apache.dubbo.registry.RegistryService?application=merchant-application&dubbo=2.0.2&pid=6337&qos.enable=false&qos.port=22310&registry=nacos&release=2.7.3&timestamp=1678084361616, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,846 [32mINFO[m [main][AbstractServer.java:73] ‐  [DUBBO] Start NettyServer bind /0.0.0.0:20891, export /192.168.199.177:20891, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,860 [32mINFO[m [main][AbstractRegistry.java:280] ‐  [DUBBO] Register: dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-application&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-application&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=6337&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678084361617&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,871 [32mINFO[m [main][AbstractRegistry.java:305] ‐  [DUBBO] Subscribe: provider://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-application&bind.ip=192.168.199.177&bind.port=20891&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-application&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=6337&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678084361617&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,878 [33mWARN[m [main][AbstractRegistry.java:395] ‐  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-application&bind.ip=192.168.199.177&bind.port=20891&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-application&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=6337&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678084361617&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,879 [33mWARN[m [com.alibaba.nacos.naming.client.listener][AbstractRegistry.java:395] ‐  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-application&bind.ip=192.168.199.177&bind.port=20891&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-application&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=6337&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678084361617&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,883 [32mINFO[m [main][DubboMetadataServiceExporter.java:86] ‐ The Dubbo service[<dubbo:service exported="true" unexported="false" interface="com.alibaba.cloud.dubbo.service.DubboMetadataService" generic="false" path="com.alibaba.cloud.dubbo.service.DubboMetadataService" ref="com.alibaba.cloud.dubbo.service.IntrospectiveDubboMetadataService@63d0e8d" prefix="dubbo.service.com.alibaba.cloud.dubbo.service.DubboMetadataService" register="true" deprecated="false" group="merchant-application" version="1.0.0" dynamic="true" valid="true" id="com.alibaba.cloud.dubbo.service.DubboMetadataService" />] has been exported.
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,917 [32mINFO[m [main][NacosServiceRegistry.java:62] ‐ nacos registry, merchant-application 192.168.199.177:57010 register finished
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:41,925 [32mINFO[m [main][StartupInfoLogger.java:59] ‐ Started MerchantApplicationBootstrap in 9.148 seconds (JVM running for 10.763)
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:42,264 [32mINFO[m [RMI TCP Connection(3)-192.168.199.177][DirectJDKLog.java:173] ‐ Initializing Spring DispatcherServlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:42,268 [32mINFO[m [RMI TCP Connection(3)-192.168.199.177][FrameworkServlet.java:524] ‐ Initializing Servlet 'dispatcherServlet'
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:42,344 [32mINFO[m [RMI TCP Connection(3)-192.168.199.177][FrameworkServlet.java:546] ‐ Completed initialization in 75 ms
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:33:11,403 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:33:41,408 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xaecb8cf0, L:/127.0.0.1:55809 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:33:41,430 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:33:41,431 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:34:11,460 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
