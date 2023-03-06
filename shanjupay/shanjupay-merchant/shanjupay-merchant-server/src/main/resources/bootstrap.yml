@@ -23,18 +23,18 @@ spring:
         namespace: 819f148d-e740-4884-a57d-77fe548ba3e3
         group: SHANJUPAY_GROUP
         ext-config:
-        -
-          refresh: true
-          data-id: spring-boot-http.yaml
-          group: COMMON_GROUP
-        -
-          refresh: true
-          data-id: spring-boot-starter-druid.yaml
-          group: COMMON_GROUP
-        -
-          refresh: true
-          data-id: spring-boot-mybatis-plus.yaml
-          group: COMMON_GROUP
+          -
+            refresh: true
+            data-id: spring-boot-http.yaml
+            group: COMMON_GROUP
+          -
+            refresh: true
+            data-id: spring-boot-starter-druid.yaml
+            group: COMMON_GROUP
+          -
+            refresh: true
+            data-id: spring-boot-mybatis-plus.yaml
+            group: COMMON_GROUP
   datasource:
     druid:
       url: jdbc:mysql://192.168.199.100:3377/shanjupay_merchant_service?useUnicode=true&characterEncoding=UTF-8&serverTimezone=Asia/Shanghai&useSSL=false
@@ -58,7 +58,7 @@ dubbo:
     base-packages: com.shanjupay
   protocol:
     name: dubbo
-    port: 20891
+    port: 20893
   registry:
     address: nacos://127.0.0.1:8848
   application:

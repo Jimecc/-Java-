@@ -10,5 +10,7 @@ import com.shanjupay.merchant.dto.MerchantDTO;
 public interface MerchantService {
 
     // 根据ID查询商户
-    public MerchantDTO queryMerchantBuID(Long id);
+    public MerchantDTO queryMerchantByID(Long id);
+
+    // 注册商户服务接口，姐搜狐账号、密码、手机号，为了可扩展性使用MerchantDTO接收数据
 }

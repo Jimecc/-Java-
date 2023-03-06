@@ -1,908 +1,194 @@
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:00:21,530 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:00:51,597 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:01:21,646 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:01:51,685 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:02:21,723 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:02:51,760 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:03:21,920 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:03:51,961 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:04:22,045 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:04:52,106 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,405 [32mINFO[m [DubboShutdownHook][DubboShutdownHook.java:58] ‐  [DUBBO] Run shutdown hook now., dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,422 [32mINFO[m [DubboShutdownHook][AbstractRegistryFactory.java:68] ‐  [DUBBO] Close all registries [nacos://127.0.0.1:8848/org.apache.dubbo.registry.RegistryService?application=merchant-service&dubbo=2.0.2&interface=org.apache.dubbo.registry.RegistryService&pid=10296&qos.enable=false&qos.port=22310&release=2.7.3&timestamp=1678016870327], dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,426 [32mINFO[m [DubboShutdownHook][AbstractRegistry.java:458] ‐  [DUBBO] Destroy registry:nacos://127.0.0.1:8848/org.apache.dubbo.registry.RegistryService?application=merchant-service&dubbo=2.0.2&interface=org.apache.dubbo.registry.RegistryService&pid=10296&qos.enable=false&qos.port=22310&release=2.7.3&timestamp=1678016870327, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,431 [32mINFO[m [DubboShutdownHook][AbstractRegistry.java:291] ‐  [DUBBO] Unregister: dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=10296&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678016870331&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,514 [32mINFO[m [DubboShutdownHook][AbstractRegistry.java:467] ‐  [DUBBO] Destroy unregister url dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=10296&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678016870331&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,518 [32mINFO[m [DubboShutdownHook][AbstractRegistry.java:320] ‐  [DUBBO] Unsubscribe: provider://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&bind.ip=192.168.199.177&bind.port=20891&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=10296&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678016870331&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,518 [32mINFO[m [DubboShutdownHook][AbstractRegistry.java:483] ‐  [DUBBO] Destroy unsubscribe url provider://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&bind.ip=192.168.199.177&bind.port=20891&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=10296&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678016870331&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,523 [32mINFO[m [DubboShutdownHook][DubboProtocol.java:616] ‐  [DUBBO] Close dubbo server: /192.168.199.177:20891, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,534 [32mINFO[m [Thread-37][AbstractRegistry.java:212] ‐  [DUBBO] Load registry cache file /Users/hsk/.dubbo/dubbo-registry-merchant-service-127.0.0.1:8848.cache, data: {merchant-application/com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0=dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-application&category=providers&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-application&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&path=com.alibaba.cloud.dubbo.service.DubboMetadataService&pid=5910&protocol=dubbo&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678010226322&version=1.0.0}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,537 [32mINFO[m [Thread-37][AbstractRegistry.java:291] ‐  [DUBBO] Unregister: dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=10296&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678016870331&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,545 [32mINFO[m [Thread-37][AbstractRegistry.java:320] ‐  [DUBBO] Unsubscribe: provider://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&bind.ip=192.168.199.177&bind.port=20891&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=10296&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678016870331&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,549 [32mINFO[m [Exporter-Unexport-thread-1][RegistryProtocol.java:689] ‐  [DUBBO] Waiting 10000ms for registry to notify all consumers before unexport. Usually, this is called when you use dubbo API, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,550 [32mINFO[m [DubboShutdownHook][AbstractServer.java:153] ‐  [DUBBO] Close NettyServer bind /0.0.0.0:20891, export /192.168.199.177:20891, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,553 [32mINFO[m [Thread-37][DubboMetadataServiceExporter.java:107] ‐ The Dubbo service[<dubbo:service exported="true" unexported="true" interface="com.alibaba.cloud.dubbo.service.DubboMetadataService" generic="false" prefix="dubbo.service.com.alibaba.cloud.dubbo.service.DubboMetadataService" path="com.alibaba.cloud.dubbo.service.DubboMetadataService" ref="com.alibaba.cloud.dubbo.service.IntrospectiveDubboMetadataService@586737ff" group="merchant-service" deprecated="false" register="true" dynamic="true" version="1.0.0" valid="true" id="com.alibaba.cloud.dubbo.service.DubboMetadataService" />] has been unexported.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,557 [32mINFO[m [DubboShutdownHook][AbstractProtocol.java:79] ‐  [DUBBO] Unexport service: dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&bind.ip=192.168.199.177&bind.port=20891&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=10296&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678016870331&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,557 [32mINFO[m [Thread-37][AwaitingNonWebApplicationListener.java:155] ‐  [Dubbo] Current Spring Boot Application is about to shutdown...
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,569 [32mINFO[m [DubboShutdownHook][Server.java:112] ‐  [DUBBO] qos-server stopped., dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,612 [32mINFO[m [Thread-37][NacosServiceRegistry.java:74] ‐ De-registering from Nacos Server now...
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,635 [32mINFO[m [Thread-37][NacosServiceRegistry.java:93] ‐ De-registration finished.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,639 [32mINFO[m [Thread-37][ExecutorConfigurationSupport.java:208] ‐ Shutting down ExecutorService 'applicationTaskExecutor'
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,652 [32mINFO[m [Thread-37][DruidDataSource.java:1885] ‐ {dataSource-1} closing ...
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,665 [36mDEBUG[m [Thread-37][Log4j2Filter.java:132] ‐ {conn-10001} closed
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,667 [36mDEBUG[m [Thread-37][Log4j2Filter.java:132] ‐ {conn-10002} closed
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,669 [36mDEBUG[m [Thread-37][Log4j2Filter.java:132] ‐ {conn-10003} closed
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,670 [36mDEBUG[m [Thread-37][Log4j2Filter.java:132] ‐ {conn-10004} closed
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,671 [36mDEBUG[m [Thread-37][Log4j2Filter.java:132] ‐ {conn-10005} closed
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,676 [32mINFO[m [Thread-37][DruidDataSource.java:1955] ‐ {dataSource-1} closed
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,693 [32mINFO[m [Thread-37][DubboGenericServiceFactory.java:159] ‐ The Dubbo GenericService ReferenceBeans are destroying...
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:12,696 [32mINFO[m [Thread-37][AnnotationInjectedBeanPostProcessor.java:305] ‐ class org.apache.dubbo.config.spring.beans.factory.annotation.ReferenceAnnotationBeanPostProcessor was destroying!
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:13,544 [33mWARN[m [com.alibaba.nacos.naming.client.listener][AbstractRegistry.java:395] ‐  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&bind.ip=192.168.199.177&bind.port=20891&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=10296&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678016870331&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:30,959 [32mINFO[m [main][:] ‐ using logger: org.apache.dubbo.common.logger.slf4j.Slf4jLoggerAdapter
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:30,968 [32mINFO[m [main][WelcomeLogoApplicationListener.java:63] ‐ 
-
- :: Dubbo Spring Boot (v2.7.1) : https://github.com/apache/incubator-dubbo-spring-boot-project
- :: Dubbo (v2.7.3) : https://github.com/apache/incubator-dubbo
- :: Discuss group : dev@dubbo.apache.org
-
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:30,973 [32mINFO[m [main][OverrideDubboConfigApplicationListener.java:68] ‐ Dubbo Config was overridden by externalized configuration {dubbo.application.name=merchant-service, dubbo.application.qos-enable=false, dubbo.application.qos.port=22310, dubbo.config.multiple=true, dubbo.consumer.check=false, dubbo.consumer.retries=-1, dubbo.consumer.timeout=3000, dubbo.protocol.name=dubbo, dubbo.protocol.port=20891, dubbo.registry.address=nacos://127.0.0.1:8848, dubbo.scan.base-packages=com.shanjupay}
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:31,781 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3cfa8f64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:31,933 [32mINFO[m [pool-3-thread-1][AwaitingNonWebApplicationListener.java:140] ‐  [Dubbo] Current Spring Boot Application is await...
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:32,012 [32mINFO[m [main][OverrideDubboConfigApplicationListener.java:68] ‐ Dubbo Config was overridden by externalized configuration {dubbo.application.name=merchant-service, dubbo.application.qos-enable=false, dubbo.application.qos.port=22310, dubbo.config.multiple=true, dubbo.consumer.check=false, dubbo.consumer.retries=-1, dubbo.consumer.timeout=3000, dubbo.protocol.name=dubbo, dubbo.protocol.port=20891, dubbo.registry.address=nacos://127.0.0.1:8848, dubbo.scan.base-packages=com.shanjupay}
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:32,254 [32mINFO[m [main][NacosPropertySourceBuilder.java:87] ‐ Loading nacos data, dataId: 'spring-boot-http.yaml', group: 'COMMON_GROUP'
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:32,271 [32mINFO[m [main][NacosPropertySourceBuilder.java:87] ‐ Loading nacos data, dataId: 'spring-boot-starter-druid.yaml', group: 'COMMON_GROUP'
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:32,293 [32mINFO[m [main][NacosPropertySourceBuilder.java:87] ‐ Loading nacos data, dataId: 'spring-boot-mybatis-plus.yaml', group: 'COMMON_GROUP'
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:32,299 [32mINFO[m [main][NacosPropertySourceBuilder.java:87] ‐ Loading nacos data, dataId: 'merchant-service.yaml', group: 'SHANJUPAY_GROUP'
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:32,306 [32mINFO[m [main][PropertySourceBootstrapConfiguration.java:98] ‐ Located property source: CompositePropertySource {name='NACOS', propertySources=[NacosPropertySource@1541046463 {name='merchant-service.yaml', properties={server.servlet.context‐path=/merchant‐service}}, NacosPropertySource@1910896157 {name='spring-boot-mybatis-plus.yaml', properties={mybatis-plus.global-config.field-strategy=0, mybatis-plus.global-config.db-column-underline=true, mybatis-plus.configuration.cache-enabled=false, mybatis-plus.global-config.refresh-mapper=true, mybatis-plus.mapper-locations=classpath:com/shanjupay/*/mapper/*.xml, mybatis-plus.typeAliasesPackage=com.shanjupay.user.entity, mybatis-plus.configuration.map-underscore-to-camel-case=true, mybatis-plus.global-config.id-type=0}}, NacosPropertySource@753426788 {name='spring-boot-starter-druid.yaml', properties={spring.datasource.druid.stat‐view‐servlet.enabled=true, spring.datasource.druid.max-active=20, spring.datasource.druid.web‐stat‐filter.session‐stat‐max‐count=1000, spring.datasource.druid.min-idle=5, spring.datasource.druid.stat‐view‐servlet.reset‐enable=false, spring.datasource.druid.stat‐view‐servlet.allow=127.0.0.1,192.168.163.1, spring.datasource.druid.min-evictable-idle-time-millis=300000, spring.datasource.driver-class-name=com.mysql.cj.jdbc.Driver, spring.datasource.druid.stat‐view‐servlet.login‐username=admin, spring.datasource.druid.test-on-return=false, spring.datasource.druid.time-between-eviction-runs-mills=60000, spring.datasource.druid.stat‐view‐servlet.deny=192.168.1.73, spring.datasource.druid.filters=config,stat,wall,log4j2, spring.datasource.druid.filter.stat.slow‐sql‐millis=1, spring.datasource.druid.test-on-borrow=true, spring.datasource.druid.web‐stat‐filter.session‐stat‐enable=false, spring.datasource.druid.web‐stat‐filter.principal‐cookie‐name=admin, spring.datasource.druid.validation-query=SELECT 1 FROM DUAL, spring.datasource.druid.web‐stat‐filter.enabled=true, spring.datasource.druid.test-while-idle=true, spring.datasource.druid.max-pool-prepared-statement-per-connection-size=20, spring.datasource.druid.filter.stat.log‐slow‐sql=true, spring.datasource.password=12345678, spring.datasource.druid.web‐stat‐filter.exclusions=*.js,*.gif,*.jpg,*.png,*.css,*.ico,/druid/*, spring.datasource.druid.stat‐view‐servlet.login‐password=admin, spring.datasource.druid.web‐stat‐filter.url‐pattern=/*, spring.datasource.username=root, spring.datasource.druid.web‐stat‐filter.profile‐enable=true, spring.datasource.druid.aop‐patterns=com.shanjupay.*.service.*, spring.datasource.url=jdbc:mysql://localhost:3306/oauth?useUnicode=true, spring.datasource.druid.initial-size=5, spring.datasource.druid.web‐stat‐filter.principal‐session‐name=admin, spring.datasource.druid.pool-prepared-statements=true, spring.datasource.type=com.alibaba.druid.pool.DruidDataSource, spring.datasource.druid.max-wait=60000, spring.datasource.druid.stat‐view‐servlet.url‐pattern=/druid/*}}, NacosPropertySource@1586470445 {name='spring-boot-http.yaml', properties={management.endpoints.web.exposure.include=refresh,health,info,env, spring.http.encoding.charset=UTF-8, spring.http.encoding.enabled=true, server.use-forward-headers=true, server.servlet.context-path=/, spring.messages.encoding=UTF-8, spring.http.encoding.force=true, server.tomcat.protocol_header=x-forwarded-proto, server.tomcat.remote_ip_header=x-forwarded-for}}]}
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:32,359 [32mINFO[m [main][SpringApplication.java:675] ‐ No active profile set, falling back to default profiles: default
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,149 [36mDEBUG[m [main][LogFactory.java:105] ‐ Logging initialized using 'class org.apache.ibatis.logging.slf4j.Slf4jImpl' adapter.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,320 [33mWARN[m [main][EndpointId.java:135] ‐ Endpoint ID 'nacos-config' contains invalid characters, please migrate to a valid format.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,323 [33mWARN[m [main][EndpointId.java:135] ‐ Endpoint ID 'nacos-discovery' contains invalid characters, please migrate to a valid format.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,365 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.ApplicationConfig] within prefix [dubbo.applications]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,365 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.ModuleConfig] within prefix [dubbo.modules]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,366 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.RegistryConfig] within prefix [dubbo.registries]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,366 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.ProtocolConfig] within prefix [dubbo.protocols]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,366 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.MonitorConfig] within prefix [dubbo.monitors]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,366 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.ProviderConfig] within prefix [dubbo.providers]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,366 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.ConsumerConfig] within prefix [dubbo.consumers]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,367 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.spring.ConfigCenterBean] within prefix [dubbo.config-centers]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,368 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.MetadataReportConfig] within prefix [dubbo.metadata-reports]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,370 [32mINFO[m [main][DubboConfigBindingRegistrar.java:127] ‐ The dubbo config bean definition [name : org.apache.dubbo.config.ApplicationConfig#0, class : org.apache.dubbo.config.ApplicationConfig] has been registered.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,371 [32mINFO[m [main][DubboConfigBindingRegistrar.java:151] ‐ The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ApplicationConfig#0] has been registered.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,372 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.ModuleConfig] within prefix [dubbo.module]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,372 [32mINFO[m [main][DubboConfigBindingRegistrar.java:127] ‐ The dubbo config bean definition [name : org.apache.dubbo.config.RegistryConfig#0, class : org.apache.dubbo.config.RegistryConfig] has been registered.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,372 [32mINFO[m [main][DubboConfigBindingRegistrar.java:151] ‐ The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.RegistryConfig#0] has been registered.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,372 [32mINFO[m [main][DubboConfigBindingRegistrar.java:127] ‐ The dubbo config bean definition [name : org.apache.dubbo.config.ProtocolConfig#0, class : org.apache.dubbo.config.ProtocolConfig] has been registered.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,372 [32mINFO[m [main][DubboConfigBindingRegistrar.java:151] ‐ The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ProtocolConfig#0] has been registered.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,373 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.MonitorConfig] within prefix [dubbo.monitor]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,373 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.ProviderConfig] within prefix [dubbo.provider]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,373 [32mINFO[m [main][DubboConfigBindingRegistrar.java:127] ‐ The dubbo config bean definition [name : org.apache.dubbo.config.ConsumerConfig#0, class : org.apache.dubbo.config.ConsumerConfig] has been registered.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,373 [32mINFO[m [main][DubboConfigBindingRegistrar.java:151] ‐ The BeanPostProcessor bean definition [org.apache.dubbo.config.spring.beans.factory.annotation.DubboConfigBindingBeanPostProcessor] for dubbo config bean [name : org.apache.dubbo.config.ConsumerConfig#0] has been registered.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,374 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.spring.ConfigCenterBean] within prefix [dubbo.config-center]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,374 [36mDEBUG[m [main][DubboConfigBindingRegistrar.java:96] ‐ There is no property for binding to dubbo config class [org.apache.dubbo.config.MetadataReportConfig] within prefix [dubbo.metadata-report]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,606 [33mWARN[m [main][EndpointId.java:135] ‐ Endpoint ID 'service-registry' contains invalid characters, please migrate to a valid format.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,701 [32mINFO[m [main][ServiceAnnotationBeanPostProcessor.java:204] ‐  [DUBBO] BeanNameGenerator bean can't be found in BeanFactory with name [org.springframework.context.annotation.internalConfigurationBeanNameGenerator], dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,702 [32mINFO[m [main][ServiceAnnotationBeanPostProcessor.java:206] ‐  [DUBBO] BeanNameGenerator will be a instance of org.springframework.context.annotation.AnnotationBeanNameGenerator , it maybe a potential problem on bean name generation., dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,728 [33mWARN[m [main][ServiceAnnotationBeanPostProcessor.java:169] ‐  [DUBBO] No Spring Bean annotating Dubbo's @Service was found under package[com.shanjupay], dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,732 [32mINFO[m [main][ConfigurationClassPostProcessor.java:380] ‐ Cannot enhance @Configuration bean definition 'org.apache.dubbo.spring.boot.autoconfigure.DubboRelaxedBinding2AutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:33,733 [32mINFO[m [main][ConfigurationClassPostProcessor.java:380] ‐ Cannot enhance @Configuration bean definition 'org.apache.dubbo.spring.boot.autoconfigure.DubboAutoConfiguration' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,004 [32mINFO[m [main][GenericScope.java:294] ‐ BeanFactory id=03279ead-796f-392f-bd8c-545c603b16d6
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,068 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration' of type [com.alibaba.druid.spring.boot.autoconfigure.stat.DruidSpringAopConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,206 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$20e08c67] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,323 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'spring.datasource.druid-com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties' of type [com.alibaba.druid.spring.boot.autoconfigure.properties.DruidStatProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,334 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'advisor' of type [org.springframework.aop.support.RegexpMethodPointcutAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,338 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.dubbo.autoconfigure.DubboOpenFeignAutoConfiguration' of type [com.alibaba.cloud.dubbo.autoconfigure.DubboOpenFeignAutoConfiguration$$EnhancerBySpringCGLIB$$a4a1db6b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,356 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'dubbo.cloud-com.alibaba.cloud.dubbo.env.DubboCloudProperties' of type [com.alibaba.cloud.dubbo.env.DubboCloudProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,374 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'metadataJsonResolver' of type [com.alibaba.cloud.dubbo.metadata.resolver.DubboServiceBeanMetadataResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,388 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.apache.dubbo.config.ApplicationConfig#0' of type [org.apache.dubbo.config.ApplicationConfig] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,403 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'dubboProtocolConfigSupplier' of type [com.alibaba.cloud.dubbo.metadata.DubboProtocolConfigSupplier] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,409 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.dubbo.service.DubboMetadataServiceExporter' of type [com.alibaba.cloud.dubbo.service.DubboMetadataServiceExporter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,411 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.dubbo.autoconfigure.DubboMetadataAutoConfiguration' of type [com.alibaba.cloud.dubbo.autoconfigure.DubboMetadataAutoConfiguration$$EnhancerBySpringCGLIB$$16e177e5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,436 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.dubbo.autoconfigure.DubboServiceAutoConfiguration' of type [com.alibaba.cloud.dubbo.autoconfigure.DubboServiceAutoConfiguration$$EnhancerBySpringCGLIB$$a98b803d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,449 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'dubboGenericServiceFactory' of type [com.alibaba.cloud.dubbo.service.DubboGenericServiceFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,456 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'dubboMetadataConfigServiceProxy' of type [com.alibaba.cloud.dubbo.service.DubboMetadataServiceProxy] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,462 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClientAutoConfiguration' of type [org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClientAutoConfiguration$$EnhancerBySpringCGLIB$$69d0b9f7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,469 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.nacos.discovery.NacosDiscoveryClientAutoConfiguration' of type [com.alibaba.cloud.nacos.discovery.NacosDiscoveryClientAutoConfiguration$$EnhancerBySpringCGLIB$$5d9bc2bc] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,483 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.cloud.commons.util.UtilAutoConfiguration' of type [org.springframework.cloud.commons.util.UtilAutoConfiguration$$EnhancerBySpringCGLIB$$e88e55eb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,494 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'inetUtilsProperties' of type [org.springframework.cloud.commons.util.InetUtilsProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,496 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'inetUtils' of type [org.springframework.cloud.commons.util.InetUtils] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,510 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'nacosProperties' of type [com.alibaba.cloud.nacos.NacosDiscoveryProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,516 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'nacosDiscoveryClient' of type [com.alibaba.cloud.nacos.discovery.NacosDiscoveryClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,541 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'server-org.springframework.boot.autoconfigure.web.ServerProperties' of type [org.springframework.boot.autoconfigure.web.ServerProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,545 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration' of type [org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClientAutoConfiguration$$EnhancerBySpringCGLIB$$35ff52c5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,565 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'simpleDiscoveryProperties' of type [org.springframework.cloud.client.discovery.simple.SimpleDiscoveryProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,570 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'simpleDiscoveryClient' of type [org.springframework.cloud.client.discovery.simple.SimpleDiscoveryClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,578 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'compositeDiscoveryClient' of type [org.springframework.cloud.client.discovery.composite.CompositeDiscoveryClient] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,583 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.dubbo.util.JSONUtils' of type [com.alibaba.cloud.dubbo.util.JSONUtils] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,769 [33mWARN[m [main][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,774 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.dubbo.metadata.repository.DubboServiceMetadataRepository' of type [com.alibaba.cloud.dubbo.metadata.repository.DubboServiceMetadataRepository] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,835 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.dubbo.service.parameter.RequestParamServiceParameterResolver' of type [com.alibaba.cloud.dubbo.service.parameter.RequestParamServiceParameterResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,861 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'spring.http-org.springframework.boot.autoconfigure.http.HttpProperties' of type [org.springframework.boot.autoconfigure.http.HttpProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,871 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration' of type [org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$StringHttpMessageConverterConfiguration$$EnhancerBySpringCGLIB$$6e221e9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,886 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'stringHttpMessageConverter' of type [org.springframework.http.converter.StringHttpMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,892 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration' of type [org.springframework.boot.autoconfigure.http.JacksonHttpMessageConvertersConfiguration$MappingJackson2HttpMessageConverterConfiguration$$EnhancerBySpringCGLIB$$a7f81a9b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,897 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperConfiguration$$EnhancerBySpringCGLIB$$7c740bf8] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,905 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$JacksonObjectMapperBuilderConfiguration$$EnhancerBySpringCGLIB$$2ec0ce11] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,909 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$$EnhancerBySpringCGLIB$$e9d7b400] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,915 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'spring.jackson-org.springframework.boot.autoconfigure.jackson.JacksonProperties' of type [org.springframework.boot.autoconfigure.jackson.JacksonProperties] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,923 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'standardJacksonObjectMapperBuilderCustomizer' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$Jackson2ObjectMapperBuilderCustomizerConfiguration$StandardJackson2ObjectMapperBuilderCustomizer] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,935 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$ParameterNamesModuleConfiguration$$EnhancerBySpringCGLIB$$10a32b2e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,956 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'parameterNamesModule' of type [com.fasterxml.jackson.module.paramnames.ParameterNamesModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,965 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration' of type [org.springframework.boot.autoconfigure.jackson.JacksonAutoConfiguration$$EnhancerBySpringCGLIB$$5e7fa987] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,979 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'jsonComponentModule' of type [org.springframework.boot.jackson.JsonComponentModule] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:34,985 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'jacksonObjectMapperBuilder' of type [org.springframework.http.converter.json.Jackson2ObjectMapperBuilder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,014 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'jacksonObjectMapper' of type [com.fasterxml.jackson.databind.ObjectMapper] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,034 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'mappingJackson2HttpMessageConverter' of type [org.springframework.http.converter.json.MappingJackson2HttpMessageConverter] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,049 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration' of type [org.springframework.boot.autoconfigure.http.HttpMessageConvertersAutoConfiguration$$EnhancerBySpringCGLIB$$3b1457fb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,059 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'messageConverters' of type [org.springframework.boot.autoconfigure.http.HttpMessageConverters] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,066 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.dubbo.service.parameter.RequestBodyServiceParameterResolver' of type [com.alibaba.cloud.dubbo.service.parameter.RequestBodyServiceParameterResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,072 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.dubbo.service.parameter.RequestHeaderServiceParameterResolver' of type [com.alibaba.cloud.dubbo.service.parameter.RequestHeaderServiceParameterResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,079 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.dubbo.service.parameter.PathVariableServiceParameterResolver' of type [com.alibaba.cloud.dubbo.service.parameter.PathVariableServiceParameterResolver] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,083 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'com.alibaba.cloud.dubbo.service.DubboGenericServiceExecutionContextFactory' of type [com.alibaba.cloud.dubbo.service.DubboGenericServiceExecutionContextFactory] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,105 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,116 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,120 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,121 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'relaxedDubboConfigBinder' of type [org.apache.dubbo.spring.boot.autoconfigure.BinderDubboConfigBinder] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,131 [32mINFO[m [main][PostProcessorRegistrationDelegate.java:330] ‐ Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$3cfa8f64] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,462 [32mINFO[m [main][TomcatWebServer.java:90] ‐ Tomcat initialized with port(s): 56040 (http)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,482 [32mINFO[m [main][DirectJDKLog.java:173] ‐ Initializing ProtocolHandler ["http-nio-56040"]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,490 [32mINFO[m [main][DirectJDKLog.java:173] ‐ Starting service [Tomcat]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,491 [32mINFO[m [main][DirectJDKLog.java:173] ‐ Starting Servlet engine: [Apache Tomcat/9.0.16]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,499 [32mINFO[m [main][DirectJDKLog.java:173] ‐ The APR based Apache Tomcat Native library which allows optimal performance in production environments was not found on the java.library.path: [/Users/hsk/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,610 [32mINFO[m [main][DirectJDKLog.java:173] ‐ Initializing Spring embedded WebApplicationContext
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:35,610 [32mINFO[m [main][ServletWebServerApplicationContext.java:296] ‐ Root WebApplicationContext: initialization completed in 3219 ms
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:36,118 [32mINFO[m [main][DruidDataSourceAutoConfigure.java:56] ‐ Init DruidDataSource
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:36,533 [36mDEBUG[m [main][Log4j2Filter.java:132] ‐ {conn-10001,procId-1787} connected
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:36,686 [36mDEBUG[m [main][Log4j2Filter.java:132] ‐ {conn-10002,procId-1788} connected
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:36,796 [36mDEBUG[m [main][Log4j2Filter.java:132] ‐ {conn-10003,procId-1789} connected
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:36,865 [36mDEBUG[m [main][Log4j2Filter.java:132] ‐ {conn-10004,procId-1790} connected
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:36,917 [36mDEBUG[m [main][Log4j2Filter.java:132] ‐ {conn-10005,procId-1791} connected
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:36,945 [32mINFO[m [main][DruidDataSource.java:1002] ‐ {dataSource-1} inited
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,683 [36mDEBUG[m [main][GlobalConfigUtils.java:106] ‐ DeBug: MyBatis Plus Global configuration Initializing !
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,693 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectList
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,695 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.SelectObjs
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,696 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Insert
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,696 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Update
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,697 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Delete
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,698 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.baomidou.mybatisplus.core.mapper.SqlRunner.Count
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,730 [36mDEBUG[m [main][VFS.java:77] ‐ Using VFS adapter com.baomidou.mybatisplus.autoconfigure.SpringBootVFS
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,740 [36mDEBUG[m [main][Log4j2Filter.java:132] ‐ {conn-10005} pool-connect
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,744 [36mDEBUG[m [main][Log4j2Filter.java:132] ‐ {conn-10005} pool-recycle
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,829 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.insert
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,837 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.delete
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,840 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.deleteByMap
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,857 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.deleteById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,859 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.deleteBatchIds
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,863 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.update
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,870 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.updateById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,872 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.selectById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,875 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.selectBatchIds
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,880 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.selectByMap
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,884 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.selectOne
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,889 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.selectCount
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,894 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.selectMaps
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,896 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.selectMapsPage
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,902 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.selectObjs
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,904 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.selectList
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,907 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.MerchantMapper.selectPage
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,933 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.insert
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,938 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.delete
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,940 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.deleteByMap
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,941 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.deleteById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,944 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.deleteBatchIds
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,947 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.update
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,950 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.updateById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,953 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.selectById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,958 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.selectBatchIds
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,960 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.selectByMap
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,961 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.selectOne
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,965 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.selectCount
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,969 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.selectMaps
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,971 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.selectMapsPage
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,972 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.selectObjs
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,974 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.selectList
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,977 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.AppMapper.selectPage
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,982 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.insert
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,985 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.delete
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,986 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.deleteByMap
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,988 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.deleteById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,991 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.deleteBatchIds
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,992 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.update
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,995 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.updateById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,995 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.selectById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,996 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.selectBatchIds
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:37,998 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.selectByMap
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,001 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.selectOne
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,003 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.selectCount
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,004 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.selectMaps
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,006 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.selectMapsPage
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,007 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.selectObjs
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,008 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.selectList
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,009 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StaffMapper.selectPage
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,013 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.insert
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,014 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.delete
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,015 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.deleteByMap
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,016 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.deleteById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,017 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.deleteBatchIds
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,019 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.update
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,020 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.updateById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,020 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.selectById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,021 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.selectBatchIds
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,022 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.selectByMap
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,023 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.selectOne
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,024 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.selectCount
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,025 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.selectMaps
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,028 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.selectMapsPage
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,030 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.selectObjs
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,032 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.selectList
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,033 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreMapper.selectPage
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,038 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.insert
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,039 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.delete
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,040 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.deleteByMap
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,041 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.deleteById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,042 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.deleteBatchIds
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,043 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.update
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,044 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.updateById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,045 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.selectById
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,045 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.selectBatchIds
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,046 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.selectByMap
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,047 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.selectOne
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,048 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.selectCount
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,049 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.selectMaps
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,050 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.selectMapsPage
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,051 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.selectObjs
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,052 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.selectList
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,053 [36mDEBUG[m [main][MybatisConfiguration.java:85] ‐ addMappedStatement: com.shanjupay.merchant.mapper.StoreStaffMapper.selectPage
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,078 [33mWARN[m [main][URLConfigurationSource.java:121] ‐ No URLs will be polled as dynamic configuration sources.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,078 [32mINFO[m [main][URLConfigurationSource.java:122] ‐ To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,081 [33mWARN[m [main][URLConfigurationSource.java:121] ‐ No URLs will be polled as dynamic configuration sources.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,081 [32mINFO[m [main][URLConfigurationSource.java:122] ‐ To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,115 [36mDEBUG[m [main][TraversableResolvers.java:60] ‐ Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,116 [36mDEBUG[m [main][ResourceBundleMessageInterpolator.java:89] ‐ Loaded expression factory via original TCCL
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,124 [36mDEBUG[m [main][TraversableResolvers.java:60] ‐ Cannot find javax.persistence.Persistence on classpath. Assuming non JPA 2 environment. All properties will per default be traversable.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,125 [36mDEBUG[m [main][ConfigurationImpl.java:148] ‐ Setting custom MessageInterpolator of type org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,126 [36mDEBUG[m [main][ConfigurationImpl.java:180] ‐ Setting custom ConstraintValidatorFactory of type org.springframework.validation.beanvalidation.SpringConstraintValidatorFactory
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,126 [36mDEBUG[m [main][ConfigurationImpl.java:194] ‐ Setting custom ParameterNameProvider of type org.springframework.validation.beanvalidation.LocalValidatorFactoryBean$1
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,127 [36mDEBUG[m [main][ValidationXmlParser.java:120] ‐ Trying to load META-INF/validation.xml for XML based Validator configuration.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,127 [36mDEBUG[m [main][ResourceLoaderHelper.java:53] ‐ Trying to load META-INF/validation.xml via user class loader
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,127 [36mDEBUG[m [main][ResourceLoaderHelper.java:60] ‐ Trying to load META-INF/validation.xml via TCCL
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,127 [36mDEBUG[m [main][ResourceLoaderHelper.java:66] ‐ Trying to load META-INF/validation.xml via Hibernate Validator's class loader
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,128 [36mDEBUG[m [main][ValidationXmlParser.java:127] ‐ No META-INF/validation.xml found. Using annotation based configuration only.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,134 [36mDEBUG[m [main][ValidatorFactoryImpl.java:578] ‐ HV000234: Using org.springframework.validation.beanvalidation.LocaleContextMessageInterpolator as ValidatorFactory-scoped message interpolator.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,135 [36mDEBUG[m [main][ValidatorFactoryImpl.java:579] ‐ HV000234: Using org.hibernate.validator.internal.engine.resolver.TraverseAllTraversableResolver as ValidatorFactory-scoped traversable resolver.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,135 [36mDEBUG[m [main][ValidatorFactoryImpl.java:580] ‐ HV000234: Using org.hibernate.validator.internal.util.ExecutableParameterNameProvider as ValidatorFactory-scoped parameter name provider.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,135 [36mDEBUG[m [main][ValidatorFactoryImpl.java:581] ‐ HV000234: Using org.hibernate.validator.internal.engine.DefaultClockProvider as ValidatorFactory-scoped clock provider.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,136 [36mDEBUG[m [main][ValidatorFactoryImpl.java:582] ‐ HV000234: Using org.hibernate.validator.internal.engine.scripting.DefaultScriptEvaluatorFactory as ValidatorFactory-scoped script evaluator factory.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,267 [32mINFO[m [main][ExecutorConfigurationSupport.java:171] ‐ Initializing ExecutorService 'applicationTaskExecutor'
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,587 [32mINFO[m [main][ExecutorConfigurationSupport.java:171] ‐ Initializing ExecutorService
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,613 [32mINFO[m [main][DubboConfigBindingBeanPostProcessor.java:109] ‐ The properties of bean [name : org.apache.dubbo.config.RegistryConfig#0] have been binding by prefix of configuration properties : dubbo.registry
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,620 [32mINFO[m [main][DubboConfigBindingBeanPostProcessor.java:109] ‐ The properties of bean [name : org.apache.dubbo.config.ProtocolConfig#0] have been binding by prefix of configuration properties : dubbo.protocol
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:38,635 [32mINFO[m [main][DubboConfigBindingBeanPostProcessor.java:109] ‐ The properties of bean [name : org.apache.dubbo.config.ConsumerConfig#0] have been binding by prefix of configuration properties : dubbo.consumer
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,153 [32mINFO[m [main][EndpointLinksResolver.java:59] ‐ Exposing 4 endpoint(s) beneath base path '/actuator'
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,220 [32mINFO[m [main][DubboServiceMetadataRepository.java:262] ‐ The metadata of Dubbo services has been initialized
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,303 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,317 [32mINFO[m [main][DirectJDKLog.java:173] ‐ Starting ProtocolHandler ["http-nio-56040"]
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,364 [32mINFO[m [main][TomcatWebServer.java:204] ‐ Tomcat started on port(s): 56040 (http) with context path ''
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,416 [36mDEBUG[m [main][AdaptiveClassCodeGenerator.java:104] ‐  [DUBBO] package org.apache.dubbo.rpc;
-import org.apache.dubbo.common.extension.ExtensionLoader;
-public class Protocol$Adaptive implements org.apache.dubbo.rpc.Protocol {
-public org.apache.dubbo.rpc.Exporter export(org.apache.dubbo.rpc.Invoker arg0) throws org.apache.dubbo.rpc.RpcException {
-if (arg0 == null) throw new IllegalArgumentException("org.apache.dubbo.rpc.Invoker argument == null");
-if (arg0.getUrl() == null) throw new IllegalArgumentException("org.apache.dubbo.rpc.Invoker argument getUrl() == null");
-org.apache.dubbo.common.URL url = arg0.getUrl();
-String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.rpc.Protocol) name from url (" + url.toString() + ") use keys([protocol])");
-org.apache.dubbo.rpc.Protocol extension = (org.apache.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(org.apache.dubbo.rpc.Protocol.class).getExtension(extName);
-return extension.export(arg0);
-}
-public org.apache.dubbo.rpc.Invoker refer(java.lang.Class arg0, org.apache.dubbo.common.URL arg1) throws org.apache.dubbo.rpc.RpcException {
-if (arg1 == null) throw new IllegalArgumentException("url == null");
-org.apache.dubbo.common.URL url = arg1;
-String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.rpc.Protocol) name from url (" + url.toString() + ") use keys([protocol])");
-org.apache.dubbo.rpc.Protocol extension = (org.apache.dubbo.rpc.Protocol)ExtensionLoader.getExtensionLoader(org.apache.dubbo.rpc.Protocol.class).getExtension(extName);
-return extension.refer(arg0, arg1);
-}
-public void destroy()  {
-throw new UnsupportedOperationException("The method public abstract void org.apache.dubbo.rpc.Protocol.destroy() of interface org.apache.dubbo.rpc.Protocol is not adaptive method!");
-}
-public int getDefaultPort()  {
-throw new UnsupportedOperationException("The method public abstract int org.apache.dubbo.rpc.Protocol.getDefaultPort() of interface org.apache.dubbo.rpc.Protocol is not adaptive method!");
-}
-}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,490 [36mDEBUG[m [main][AdaptiveClassCodeGenerator.java:104] ‐  [DUBBO] package org.apache.dubbo.rpc;
-import org.apache.dubbo.common.extension.ExtensionLoader;
-public class ProxyFactory$Adaptive implements org.apache.dubbo.rpc.ProxyFactory {
-public java.lang.Object getProxy(org.apache.dubbo.rpc.Invoker arg0) throws org.apache.dubbo.rpc.RpcException {
-if (arg0 == null) throw new IllegalArgumentException("org.apache.dubbo.rpc.Invoker argument == null");
-if (arg0.getUrl() == null) throw new IllegalArgumentException("org.apache.dubbo.rpc.Invoker argument getUrl() == null");
-org.apache.dubbo.common.URL url = arg0.getUrl();
-String extName = url.getParameter("proxy", "javassist");
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.rpc.ProxyFactory) name from url (" + url.toString() + ") use keys([proxy])");
-org.apache.dubbo.rpc.ProxyFactory extension = (org.apache.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(org.apache.dubbo.rpc.ProxyFactory.class).getExtension(extName);
-return extension.getProxy(arg0);
-}
-public java.lang.Object getProxy(org.apache.dubbo.rpc.Invoker arg0, boolean arg1) throws org.apache.dubbo.rpc.RpcException {
-if (arg0 == null) throw new IllegalArgumentException("org.apache.dubbo.rpc.Invoker argument == null");
-if (arg0.getUrl() == null) throw new IllegalArgumentException("org.apache.dubbo.rpc.Invoker argument getUrl() == null");
-org.apache.dubbo.common.URL url = arg0.getUrl();
-String extName = url.getParameter("proxy", "javassist");
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.rpc.ProxyFactory) name from url (" + url.toString() + ") use keys([proxy])");
-org.apache.dubbo.rpc.ProxyFactory extension = (org.apache.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(org.apache.dubbo.rpc.ProxyFactory.class).getExtension(extName);
-return extension.getProxy(arg0, arg1);
-}
-public org.apache.dubbo.rpc.Invoker getInvoker(java.lang.Object arg0, java.lang.Class arg1, org.apache.dubbo.common.URL arg2) throws org.apache.dubbo.rpc.RpcException {
-if (arg2 == null) throw new IllegalArgumentException("url == null");
-org.apache.dubbo.common.URL url = arg2;
-String extName = url.getParameter("proxy", "javassist");
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.rpc.ProxyFactory) name from url (" + url.toString() + ") use keys([proxy])");
-org.apache.dubbo.rpc.ProxyFactory extension = (org.apache.dubbo.rpc.ProxyFactory)ExtensionLoader.getExtensionLoader(org.apache.dubbo.rpc.ProxyFactory.class).getExtension(extName);
-return extension.getInvoker(arg0, arg1, arg2);
-}
-}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,529 [33mWARN[m [main][AbstractInterfaceConfig.java:265] ‐  [DUBBO] There's no valid metadata config found, if you are using the simplified mode of registry url, please make sure you have a metadata address configured properly., dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,588 [36mDEBUG[m [main][AdaptiveClassCodeGenerator.java:104] ‐  [DUBBO] package org.apache.dubbo.cache;
-import org.apache.dubbo.common.extension.ExtensionLoader;
-public class CacheFactory$Adaptive implements org.apache.dubbo.cache.CacheFactory {
-public org.apache.dubbo.cache.Cache getCache(org.apache.dubbo.common.URL arg0, org.apache.dubbo.rpc.Invocation arg1)  {
-if (arg0 == null) throw new IllegalArgumentException("url == null");
-org.apache.dubbo.common.URL url = arg0;
-if (arg1 == null) throw new IllegalArgumentException("invocation == null"); String methodName = arg1.getMethodName();
-String extName = url.getMethodParameter(methodName, "cache", "lru");
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.cache.CacheFactory) name from url (" + url.toString() + ") use keys([cache])");
-org.apache.dubbo.cache.CacheFactory extension = (org.apache.dubbo.cache.CacheFactory)ExtensionLoader.getExtensionLoader(org.apache.dubbo.cache.CacheFactory.class).getExtension(extName);
-return extension.getCache(arg0, arg1);
-}
-}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,602 [36mDEBUG[m [main][AdaptiveClassCodeGenerator.java:104] ‐  [DUBBO] package org.apache.dubbo.monitor;
-import org.apache.dubbo.common.extension.ExtensionLoader;
-public class MonitorFactory$Adaptive implements org.apache.dubbo.monitor.MonitorFactory {
-public org.apache.dubbo.monitor.Monitor getMonitor(org.apache.dubbo.common.URL arg0)  {
-if (arg0 == null) throw new IllegalArgumentException("url == null");
-org.apache.dubbo.common.URL url = arg0;
-String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.monitor.MonitorFactory) name from url (" + url.toString() + ") use keys([protocol])");
-org.apache.dubbo.monitor.MonitorFactory extension = (org.apache.dubbo.monitor.MonitorFactory)ExtensionLoader.getExtensionLoader(org.apache.dubbo.monitor.MonitorFactory.class).getExtension(extName);
-return extension.getMonitor(arg0);
-}
-}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,612 [36mDEBUG[m [main][AdaptiveClassCodeGenerator.java:104] ‐  [DUBBO] package org.apache.dubbo.validation;
-import org.apache.dubbo.common.extension.ExtensionLoader;
-public class Validation$Adaptive implements org.apache.dubbo.validation.Validation {
-public org.apache.dubbo.validation.Validator getValidator(org.apache.dubbo.common.URL arg0)  {
-if (arg0 == null) throw new IllegalArgumentException("url == null");
-org.apache.dubbo.common.URL url = arg0;
-String extName = url.getParameter("validation", "jvalidation");
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.validation.Validation) name from url (" + url.toString() + ") use keys([validation])");
-org.apache.dubbo.validation.Validation extension = (org.apache.dubbo.validation.Validation)ExtensionLoader.getExtensionLoader(org.apache.dubbo.validation.Validation.class).getExtension(extName);
-return extension.getValidator(arg0);
-}
-}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,621 [32mINFO[m [main][ServiceConfig.java:643] ‐  [DUBBO] Export dubbo service com.alibaba.cloud.dubbo.service.DubboMetadataService to local registry url : injvm://127.0.0.1/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&bind.ip=192.168.199.177&bind.port=20891&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=11080&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678017939535&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,621 [32mINFO[m [main][ServiceConfig.java:581] ‐  [DUBBO] Export dubbo service com.alibaba.cloud.dubbo.service.DubboMetadataService to url dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&bind.ip=192.168.199.177&bind.port=20891&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=11080&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678017939535&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,622 [32mINFO[m [main][AbstractInterfaceConfig.java:237] ‐  [DUBBO] There's no valid monitor config found, if you want to open monitor statistics for Dubbo, please make sure your monitor is configured properly., dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,623 [32mINFO[m [main][ServiceConfig.java:595] ‐  [DUBBO] Register dubbo service com.alibaba.cloud.dubbo.service.DubboMetadataService url dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&bind.ip=192.168.199.177&bind.port=20891&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=11080&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678017939535&version=1.0.0 to registry registry://127.0.0.1:8848/org.apache.dubbo.registry.RegistryService?application=merchant-service&dubbo=2.0.2&pid=11080&qos.enable=false&qos.port=22310&registry=nacos&release=2.7.3&timestamp=1678017939530, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,631 [36mDEBUG[m [main][AdaptiveClassCodeGenerator.java:104] ‐  [DUBBO] package org.apache.dubbo.registry;
-import org.apache.dubbo.common.extension.ExtensionLoader;
-public class RegistryFactory$Adaptive implements org.apache.dubbo.registry.RegistryFactory {
-public org.apache.dubbo.registry.Registry getRegistry(org.apache.dubbo.common.URL arg0)  {
-if (arg0 == null) throw new IllegalArgumentException("url == null");
-org.apache.dubbo.common.URL url = arg0;
-String extName = ( url.getProtocol() == null ? "dubbo" : url.getProtocol() );
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.registry.RegistryFactory) name from url (" + url.toString() + ") use keys([protocol])");
-org.apache.dubbo.registry.RegistryFactory extension = (org.apache.dubbo.registry.RegistryFactory)ExtensionLoader.getExtensionLoader(org.apache.dubbo.registry.RegistryFactory.class).getExtension(extName);
-return extension.getRegistry(arg0);
-}
-}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,641 [36mDEBUG[m [main][AdaptiveClassCodeGenerator.java:104] ‐  [DUBBO] package org.apache.dubbo.rpc.cluster;
-import org.apache.dubbo.common.extension.ExtensionLoader;
-public class Cluster$Adaptive implements org.apache.dubbo.rpc.cluster.Cluster {
-public org.apache.dubbo.rpc.Invoker join(org.apache.dubbo.rpc.cluster.Directory arg0) throws org.apache.dubbo.rpc.RpcException {
-if (arg0 == null) throw new IllegalArgumentException("org.apache.dubbo.rpc.cluster.Directory argument == null");
-if (arg0.getUrl() == null) throw new IllegalArgumentException("org.apache.dubbo.rpc.cluster.Directory argument getUrl() == null");
-org.apache.dubbo.common.URL url = arg0.getUrl();
-String extName = url.getParameter("cluster", "failover");
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.rpc.cluster.Cluster) name from url (" + url.toString() + ") use keys([cluster])");
-org.apache.dubbo.rpc.cluster.Cluster extension = (org.apache.dubbo.rpc.cluster.Cluster)ExtensionLoader.getExtensionLoader(org.apache.dubbo.rpc.cluster.Cluster.class).getExtension(extName);
-return extension.join(arg0);
-}
-}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,649 [32mINFO[m [main][QosProtocolWrapper.java:89] ‐  [DUBBO] qos won't be started because it is disabled. Please check dubbo.application.qos.enable is configured either in system property, dubbo.properties or XML/spring-boot configuration., dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,663 [36mDEBUG[m [main][AdaptiveClassCodeGenerator.java:104] ‐  [DUBBO] package org.apache.dubbo.remoting;
-import org.apache.dubbo.common.extension.ExtensionLoader;
-public class Transporter$Adaptive implements org.apache.dubbo.remoting.Transporter {
-public org.apache.dubbo.remoting.Client connect(org.apache.dubbo.common.URL arg0, org.apache.dubbo.remoting.ChannelHandler arg1) throws org.apache.dubbo.remoting.RemotingException {
-if (arg0 == null) throw new IllegalArgumentException("url == null");
-org.apache.dubbo.common.URL url = arg0;
-String extName = url.getParameter("client", url.getParameter("transporter", "netty"));
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.remoting.Transporter) name from url (" + url.toString() + ") use keys([client, transporter])");
-org.apache.dubbo.remoting.Transporter extension = (org.apache.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(org.apache.dubbo.remoting.Transporter.class).getExtension(extName);
-return extension.connect(arg0, arg1);
-}
-public org.apache.dubbo.remoting.Server bind(org.apache.dubbo.common.URL arg0, org.apache.dubbo.remoting.ChannelHandler arg1) throws org.apache.dubbo.remoting.RemotingException {
-if (arg0 == null) throw new IllegalArgumentException("url == null");
-org.apache.dubbo.common.URL url = arg0;
-String extName = url.getParameter("server", url.getParameter("transporter", "netty"));
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.remoting.Transporter) name from url (" + url.toString() + ") use keys([server, transporter])");
-org.apache.dubbo.remoting.Transporter extension = (org.apache.dubbo.remoting.Transporter)ExtensionLoader.getExtensionLoader(org.apache.dubbo.remoting.Transporter.class).getExtension(extName);
-return extension.bind(arg0, arg1);
-}
-}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,678 [36mDEBUG[m [main][AdaptiveClassCodeGenerator.java:104] ‐  [DUBBO] package org.apache.dubbo.remoting;
-import org.apache.dubbo.common.extension.ExtensionLoader;
-public class Dispatcher$Adaptive implements org.apache.dubbo.remoting.Dispatcher {
-public org.apache.dubbo.remoting.ChannelHandler dispatch(org.apache.dubbo.remoting.ChannelHandler arg0, org.apache.dubbo.common.URL arg1)  {
-if (arg1 == null) throw new IllegalArgumentException("url == null");
-org.apache.dubbo.common.URL url = arg1;
-String extName = url.getParameter("dispatcher", url.getParameter("dispather", url.getParameter("channel.handler", "all")));
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.remoting.Dispatcher) name from url (" + url.toString() + ") use keys([dispatcher, dispather, channel.handler])");
-org.apache.dubbo.remoting.Dispatcher extension = (org.apache.dubbo.remoting.Dispatcher)ExtensionLoader.getExtensionLoader(org.apache.dubbo.remoting.Dispatcher.class).getExtension(extName);
-return extension.dispatch(arg0, arg1);
-}
-}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,687 [36mDEBUG[m [main][AdaptiveClassCodeGenerator.java:104] ‐  [DUBBO] package org.apache.dubbo.common.threadpool;
-import org.apache.dubbo.common.extension.ExtensionLoader;
-public class ThreadPool$Adaptive implements org.apache.dubbo.common.threadpool.ThreadPool {
-public java.util.concurrent.Executor getExecutor(org.apache.dubbo.common.URL arg0)  {
-if (arg0 == null) throw new IllegalArgumentException("url == null");
-org.apache.dubbo.common.URL url = arg0;
-String extName = url.getParameter("threadpool", "fixed");
-if(extName == null) throw new IllegalStateException("Failed to get extension (org.apache.dubbo.common.threadpool.ThreadPool) name from url (" + url.toString() + ") use keys([threadpool])");
-org.apache.dubbo.common.threadpool.ThreadPool extension = (org.apache.dubbo.common.threadpool.ThreadPool)ExtensionLoader.getExtensionLoader(org.apache.dubbo.common.threadpool.ThreadPool.class).getExtension(extName);
-return extension.getExecutor(arg0);
-}
-}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,703 [36mDEBUG[m [main][InternalLoggerFactory.java:43] ‐ Using SLF4J as the default logging framework
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,709 [36mDEBUG[m [main][MultithreadEventLoopGroup.java:44] ‐ -Dio.netty.eventLoopThreads: 16
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,727 [36mDEBUG[m [main][NioEventLoop.java:105] ‐ -Dio.netty.noKeySetOptimization: false
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,728 [36mDEBUG[m [main][NioEventLoop.java:106] ‐ -Dio.netty.selectorAutoRebuildThreshold: 512
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,730 [36mDEBUG[m [main][PlatformDependent.java:966] ‐ Platform: MacOS
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,731 [36mDEBUG[m [main][PlatformDependent0.java:395] ‐ -Dio.netty.noUnsafe: false
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,731 [36mDEBUG[m [main][PlatformDependent0.java:871] ‐ Java version: 8
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,732 [36mDEBUG[m [main][PlatformDependent0.java:120] ‐ sun.misc.Unsafe.theUnsafe: available
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,733 [36mDEBUG[m [main][PlatformDependent0.java:144] ‐ sun.misc.Unsafe.copyMemory: available
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,733 [36mDEBUG[m [main][PlatformDependent0.java:182] ‐ java.nio.Buffer.address: available
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,734 [36mDEBUG[m [main][PlatformDependent0.java:243] ‐ direct buffer constructor: available
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,734 [36mDEBUG[m [main][PlatformDependent0.java:313] ‐ java.nio.Bits.unaligned: available, true
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,735 [36mDEBUG[m [main][PlatformDependent0.java:378] ‐ jdk.internal.misc.Unsafe.allocateUninitializedArray(int): unavailable prior to Java9
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,735 [36mDEBUG[m [main][PlatformDependent0.java:385] ‐ java.nio.DirectByteBuffer.<init>(long, int): available
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,735 [36mDEBUG[m [main][PlatformDependent.java:992] ‐ sun.misc.Unsafe: available
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,735 [36mDEBUG[m [main][PlatformDependent.java:1086] ‐ -Dio.netty.tmpdir: /var/folders/s5/f4r047851kd1np0tsvnsgyx00000gn/T (java.io.tmpdir)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,735 [36mDEBUG[m [main][PlatformDependent.java:1165] ‐ -Dio.netty.bitMode: 64 (sun.arch.data.model)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,736 [36mDEBUG[m [main][PlatformDependent.java:157] ‐ -Dio.netty.maxDirectMemory: 1908932608 bytes
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,736 [36mDEBUG[m [main][PlatformDependent.java:164] ‐ -Dio.netty.uninitializedArrayAllocationThreshold: -1
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,737 [36mDEBUG[m [main][CleanerJava6.java:92] ‐ java.nio.ByteBuffer.cleaner(): available
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,737 [36mDEBUG[m [main][PlatformDependent.java:184] ‐ -Dio.netty.noPreferDirect: false
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,738 [36mDEBUG[m [main][PlatformDependent.java:860] ‐ org.jctools-core.MpscChunkedArrayQueue: available
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,752 [36mDEBUG[m [main][ResourceLeakDetector.java:129] ‐ -Dio.netty.leakDetection.level: simple
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,752 [36mDEBUG[m [main][ResourceLeakDetector.java:130] ‐ -Dio.netty.leakDetection.targetRecords: 4
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,757 [36mDEBUG[m [main][PooledByteBufAllocator.java:126] ‐ -Dio.netty.allocator.numHeapArenas: 16
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,757 [36mDEBUG[m [main][PooledByteBufAllocator.java:127] ‐ -Dio.netty.allocator.numDirectArenas: 16
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,757 [36mDEBUG[m [main][PooledByteBufAllocator.java:129] ‐ -Dio.netty.allocator.pageSize: 8192
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,758 [36mDEBUG[m [main][PooledByteBufAllocator.java:134] ‐ -Dio.netty.allocator.maxOrder: 11
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,758 [36mDEBUG[m [main][PooledByteBufAllocator.java:138] ‐ -Dio.netty.allocator.chunkSize: 16777216
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,758 [36mDEBUG[m [main][PooledByteBufAllocator.java:139] ‐ -Dio.netty.allocator.tinyCacheSize: 512
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,758 [36mDEBUG[m [main][PooledByteBufAllocator.java:140] ‐ -Dio.netty.allocator.smallCacheSize: 256
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,758 [36mDEBUG[m [main][PooledByteBufAllocator.java:141] ‐ -Dio.netty.allocator.normalCacheSize: 64
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,758 [36mDEBUG[m [main][PooledByteBufAllocator.java:142] ‐ -Dio.netty.allocator.maxCachedBufferCapacity: 32768
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,759 [36mDEBUG[m [main][PooledByteBufAllocator.java:143] ‐ -Dio.netty.allocator.cacheTrimInterval: 8192
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,759 [36mDEBUG[m [main][PooledByteBufAllocator.java:144] ‐ -Dio.netty.allocator.useCacheForAllThreads: true
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,759 [36mDEBUG[m [main][PooledByteBufAllocator.java:145] ‐ -Dio.netty.allocator.maxCachedByteBuffersPerChunk: 1023
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,761 [36mDEBUG[m [main][InternalThreadLocalMap.java:54] ‐ -Dio.netty.threadLocalMap.stringBuilder.initialSize: 1024
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,761 [36mDEBUG[m [main][InternalThreadLocalMap.java:57] ‐ -Dio.netty.threadLocalMap.stringBuilder.maxSize: 4096
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,769 [36mDEBUG[m [main][DefaultChannelId.java:79] ‐ -Dio.netty.processId: 11080 (auto-detected)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,774 [36mDEBUG[m [main][NetUtil.java:139] ‐ -Djava.net.preferIPv4Stack: false
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,774 [36mDEBUG[m [main][NetUtil.java:140] ‐ -Djava.net.preferIPv6Addresses: false
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,777 [36mDEBUG[m [main][NetUtil.java:224] ‐ Loopback interface: [lo0, lo0, 0:0:0:0:0:0:0:1%lo0] ([lo0, lo0, 0:0:0:0:0:0:0:1%lo0], {})
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,777 [36mDEBUG[m [main][NetUtil.java:289] ‐ Failed to get SOMAXCONN from sysctl and file /proc/sys/net/core/somaxconn. Default: 128
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,780 [36mDEBUG[m [main][DefaultChannelId.java:101] ‐ -Dio.netty.machineId: 3c:a6:f6:ff:fe:27:42:1c (auto-detected)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,796 [36mDEBUG[m [main][ByteBufUtil.java:83] ‐ -Dio.netty.allocator.type: pooled
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,796 [36mDEBUG[m [main][ByteBufUtil.java:92] ‐ -Dio.netty.threadLocalDirectBufferSize: 0
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,796 [36mDEBUG[m [main][ByteBufUtil.java:95] ‐ -Dio.netty.maxThreadLocalCharBufferSize: 16384
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,807 [32mINFO[m [main][AbstractServer.java:73] ‐  [DUBBO] Start NettyServer bind /0.0.0.0:20891, export /192.168.199.177:20891, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,815 [32mINFO[m [main][AbstractRegistry.java:212] ‐  [DUBBO] Load registry cache file /Users/hsk/.dubbo/dubbo-registry-merchant-service-127.0.0.1:8848.cache, data: {merchant-application/com.alibaba.cloud.dubbo.service.DubboMetadataService:1.0.0=dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-application&category=providers&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-application&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&path=com.alibaba.cloud.dubbo.service.DubboMetadataService&pid=5910&protocol=dubbo&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678010226322&version=1.0.0}, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,817 [32mINFO[m [main][AbstractRegistry.java:280] ‐  [DUBBO] Register: dubbo://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=11080&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678017939535&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,860 [32mINFO[m [main][AbstractRegistry.java:305] ‐  [DUBBO] Subscribe: provider://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&bind.ip=192.168.199.177&bind.port=20891&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=11080&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678017939535&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,926 [33mWARN[m [main][AbstractRegistry.java:395] ‐  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&bind.ip=192.168.199.177&bind.port=20891&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=11080&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678017939535&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,929 [33mWARN[m [com.alibaba.nacos.naming.client.listener][AbstractRegistry.java:395] ‐  [DUBBO] Ignore empty notify urls for subscribe url provider://192.168.199.177:20891/com.alibaba.cloud.dubbo.service.DubboMetadataService?anyhost=true&application=merchant-service&bind.ip=192.168.199.177&bind.port=20891&category=configurators&check=false&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&group=merchant-service&interface=com.alibaba.cloud.dubbo.service.DubboMetadataService&methods=getAllServiceKeys,getServiceRestMetadata,getExportedURLs,getAllExportedURLs&pid=11080&qos.enable=false&qos.port=22310&register=true&release=2.7.3&revision=2.1.0.RELEASE&side=provider&timestamp=1678017939535&version=1.0.0, dubbo version: 2.7.3, current host: 192.168.199.177
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,929 [32mINFO[m [main][DubboMetadataServiceExporter.java:86] ‐ The Dubbo service[<dubbo:service exported="true" unexported="false" interface="com.alibaba.cloud.dubbo.service.DubboMetadataService" prefix="dubbo.service.com.alibaba.cloud.dubbo.service.DubboMetadataService" path="com.alibaba.cloud.dubbo.service.DubboMetadataService" ref="com.alibaba.cloud.dubbo.service.IntrospectiveDubboMetadataService@16e07bae" generic="false" group="merchant-service" deprecated="false" register="true" version="1.0.0" dynamic="true" id="com.alibaba.cloud.dubbo.service.DubboMetadataService" valid="true" />] has been exported.
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,976 [32mINFO[m [main][NacosServiceRegistry.java:62] ‐ nacos registry, merchant-service 192.168.199.177:56040 register finished
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:05:39,997 [32mINFO[m [main][StartupInfoLogger.java:59] ‐ Started MerchantBootstrap in 9.978 seconds (JVM running for 13.07)
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:06:09,349 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:06:39,432 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:07:09,490 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:07:39,543 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:08:09,596 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:08:39,653 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:09:09,730 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:09:39,809 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:10:09,914 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:10:39,957 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:11:10,030 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:11:40,073 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:12:10,118 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:12:40,175 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:13:10,232 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:13:40,290 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:14:10,400 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:14:40,431 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:15:10,469 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:15:40,510 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:16:10,571 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:16:40,632 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
-[${project.name}][${env:SERVER_PORT}] 2023‐03‐05
-            20:17:10,667 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:1) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:00:29,524 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:00:59,072 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:00:59,078 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:00:59,532 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:01:29,552 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:01:59,080 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:01:59,098 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:01:59,575 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:02:29,584 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:02:59,104 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:02:59,121 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:02:59,607 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:03:29,627 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:03:59,124 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:03:59,153 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:03:59,659 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:04:29,681 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:04:59,156 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:04:59,171 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:04:59,690 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:05:29,724 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:05:59,175 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:05:59,192 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:05:59,750 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:06:29,778 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:06:59,195 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:06:59,203 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:06:59,801 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:07:29,828 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:07:59,210 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:07:59,237 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:07:59,846 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:08:29,863 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:08:59,226 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:08:59,252 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:08:59,912 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:09:29,928 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:09:59,256 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:09:59,277 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:09:59,960 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:10:29,979 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:10:59,280 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:10:59,300 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:11:00,004 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:11:30,050 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:11:59,308 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:11:59,331 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:12:00,084 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:12:30,103 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:12:59,338 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:12:59,363 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:13:00,140 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:13:30,160 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:13:59,369 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:13:59,391 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:14:00,183 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:14:30,208 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:14:59,395 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:14:59,415 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:15:00,246 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:15:30,274 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:15:59,418 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:15:59,428 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:16:00,295 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:16:30,322 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:16:59,433 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:16:59,456 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:17:00,342 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:17:30,358 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:17:59,460 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:17:59,478 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:18:00,382 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:18:30,403 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:18:59,480 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:18:59,497 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:19:00,421 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:19:30,431 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:19:59,502 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:19:59,558 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:20:00,451 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:20:30,473 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:20:59,562 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:20:59,585 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:21:00,490 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:21:30,509 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:21:59,588 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:21:59,612 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:22:00,535 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:22:30,555 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:22:59,616 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:22:59,626 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:23:00,569 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:23:30,575 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:23:59,621 [36mDEBUG[m [NettyClientWorker-1-1][NettyClientHandler.java:121] ‐  [DUBBO] IdleStateEvent triggered, send heartbeat to channel NettyChannel [channel=[id: 0xb928d4ec, L:/127.0.0.1:65362 - R:/127.0.0.1:7890]], dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:23:59,661 [36mDEBUG[m [NettyClientWorker-1-1][HeartbeatHandler.java:84] ‐  [DUBBO] Receive heartbeat response in thread NettyClientWorker-1-1, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:24:00,590 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:24:30,619 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services

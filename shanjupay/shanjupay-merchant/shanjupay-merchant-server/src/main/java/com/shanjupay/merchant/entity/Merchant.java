@@ -92,4 +92,22 @@ public class Merchant implements Serializable {
     private Long tenantId;
 
 
+    @Override
+    public String toString() {
+        return "Merchant{" +
+                "id=" + id +
+                ", merchantName='" + merchantName + '\'' +
+                ", merchantNo='" + merchantNo + '\'' +
+                ", merchantAddress='" + merchantAddress + '\'' +
+                ", merchantType='" + merchantType + '\'' +
+                ", businessLicensesImg='" + businessLicensesImg + '\'' +
+                ", idCardFrontImg='" + idCardFrontImg + '\'' +
+                ", idCardAfterImg='" + idCardAfterImg + '\'' +
+                ", username='" + username + '\'' +
+                ", mobile='" + mobile + '\'' +
+                ", contactsAddress='" + contactsAddress + '\'' +
+                ", auditStatus='" + auditStatus + '\'' +
+                ", tenantId=" + tenantId +
+                '}';
+    }
 }

@@ -5,6 +5,8 @@ import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
 
+import java.io.Serializable;
+
 /**
  * @author Jim
  * @Description
@@ -12,7 +14,7 @@ import lombok.Data;
  */
 @Data
 @ApiModel(value="MerchantDTO",description = "商户信息")
-public class MerchantDTO  {
+public class MerchantDTO implements Serializable{
 
     private static final long serialVersionUID = 1L;
 
