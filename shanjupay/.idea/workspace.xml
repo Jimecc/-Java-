@@ -5,8 +5,52 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af676df8-9b88-4e33-add3-e3037e2e5f86" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/notes/1.简单实例/1.直接使用RestTemplate实现.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/1.简单实例/2.使用Nacos服务注册中心.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/1.简单实例/3.使用LoadBalance做轮询.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/1.简单实例/4.Dubbo协议.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/1.简单实例/5.Nacos命名空间.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/1.简单实例/6.Nacos配置中心.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/1.简单实例/7.全局异常定义.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/Jim's_2023-03-05 09.03.29.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/changeloadbalance.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/dubbo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/globalErr.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/morestart.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/notes/nacos_config.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/domain/RestErrorResponse.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/common/intercept/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/convert/MerchantConvert.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/vo/MerchantRegisterVO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/dto/AppDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/dto/StaffDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/dto/StoreDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/dto/StoreStaffDTO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/src/main/java/com/shanjupay/merchant/convert/MerchantConvert.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/src/main/java/com/shanjupay/generator/MyBatisPlusGenerator.java" beforeDir="false" afterPath="$PROJECT_DIR$/generator/src/main/java/com/shanjupay/generator/MyBatisPlusGenerator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/target/classes/com/shanjupay/generator/MyBatisPlusGenerator$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/generator/target/classes/com/shanjupay/generator/MyBatisPlusGenerator$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/target/classes/com/shanjupay/generator/MyBatisPlusGenerator$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/generator/target/classes/com/shanjupay/generator/MyBatisPlusGenerator$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/generator/target/classes/com/shanjupay/generator/MyBatisPlusGenerator.class" beforeDir="false" afterPath="$PROJECT_DIR$/generator/target/classes/com/shanjupay/generator/MyBatisPlusGenerator.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/logs/${project.name}_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/2023‐03‐06/${project.name}_info.2023‐03‐06‐ 13.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/2023‐03‐06/${project.name}_info.2023‐03‐06‐ 13.log" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/domain/CommonErrorCode.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/domain/CommonErrorCode.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-common/target/classes/com/shanjupay/common/domain/CommonErrorCode.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-common/target/classes/com/shanjupay/common/domain/CommonErrorCode.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/controller/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/controller/MerchantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/service/SmsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/service/SmsService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/service/SmsServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/service/SmsServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/jim/shanjupay/merchant/controller/MerchantController.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/jim/shanjupay/merchant/controller/MerchantController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/jim/shanjupay/merchant/service/SmsService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/jim/shanjupay/merchant/service/SmsService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/jim/shanjupay/merchant/service/SmsServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/classes/com/jim/shanjupay/merchant/service/SmsServiceImpl.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/MerchantService.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/api/MerchantService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/dto/MerchantDTO.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/dto/MerchantDTO.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/target/classes/com/shanjupay/merchant/api/MerchantService.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/target/classes/com/shanjupay/merchant/api/MerchantService.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/target/classes/com/shanjupay/merchant/dto/MerchantDTO.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/target/classes/com/shanjupay/merchant/dto/MerchantDTO.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/src/main/java/com/shanjupay/merchant/service/MerchantServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/src/main/java/com/shanjupay/merchant/service/MerchantServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/target/classes/com/shanjupay/merchant/service/MerchantServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/target/classes/com/shanjupay/merchant/service/MerchantServiceImpl.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -26,6 +70,14 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="GitSEFilterConfiguration">
+    <file-type-list>
+      <filtered-out-file-type name="LOCAL_BRANCH" />
+      <filtered-out-file-type name="REMOTE_BRANCH" />
+      <filtered-out-file-type name="TAG" />
+      <filtered-out-file-type name="COMMIT_BY_MESSAGE" />
+    </file-type-list>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -112,7 +164,7 @@
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/src/main/resources" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/notes" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
@@ -123,10 +175,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/notes" />
+      <recent name="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/src/main/java/com/shanjupay/merchant/dto" />
       <recent name="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/src/main/resources" />
       <recent name="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/src/main/java" />
       <recent name="$PROJECT_DIR$/shanjupay-merchant/src/main/resources" />
-      <recent name="$PROJECT_DIR$" />
     </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.shanjupay.merchant" />
@@ -134,12 +187,12 @@
     </key>
   </component>
   <component name="RunManager" selected="Spring Boot.MerchantApplicationBootstrap">
-    <configuration name="AmountUtil" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="com.shanjupay.common.util.AmountUtil" />
-      <module name="shanjupay-common" />
+    <configuration name="MerchantConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shanjupay.merchant.convert.MerchantConvert" />
+      <module name="shanjupay-merchant-server" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.shanjupay.common.util.*" />
+          <option name="PATTERN" value="com.shanjupay.merchant.convert.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,18 +200,15 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MerchantApplicationBootstrapTest.getHtml" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="shanjupay-merchant-application" />
+    <configuration name="MyBatisPlusGenerator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.shanjupay.generator.MyBatisPlusGenerator" />
+      <module name="generator" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.jim.shanjupay.merchant.*" />
+          <option name="PATTERN" value="com.shanjupay.generator.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.jim.shanjupay.merchant" />
-      <option name="MAIN_CLASS_NAME" value="com.jim.shanjupay.merchant.MerchantApplicationBootstrapTest" />
-      <option name="METHOD_NAME" value="getHtml" />
-      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -208,19 +258,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.AmountUtil" />
-      <item itemvalue="JUnit.MerchantApplicationBootstrapTest.getHtml" />
       <item itemvalue="JUnit.RestTemplateTest.getSmsCode" />
       <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
       <item itemvalue="Spring Boot.MerchantBootstrap" />
+      <item itemvalue="Application.MyBatisPlusGenerator" />
+      <item itemvalue="Application.MerchantConvert" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
         <item itemvalue="Spring Boot.MerchantBootstrap" />
+        <item itemvalue="Application.MerchantConvert" />
+        <item itemvalue="Application.MyBatisPlusGenerator" />
         <item itemvalue="JUnit.RestTemplateTest.getSmsCode" />
-        <item itemvalue="JUnit.MerchantApplicationBootstrapTest.getHtml" />
-        <item itemvalue="Application.AmountUtil" />
       </list>
     </recent_temporary>
   </component>
@@ -242,7 +292,7 @@
       <workItem from="1574404354823" duration="998000" />
       <workItem from="1678003857934" duration="19396000" />
       <workItem from="1678062488942" duration="10652000" />
-      <workItem from="1678077448312" duration="5899000" />
+      <workItem from="1678077448312" duration="22958000" />
     </task>
     <servers />
   </component>

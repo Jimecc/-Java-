@@ -75,6 +75,7 @@ public enum CommonErrorCode implements ErrorCode {
 	 */
 	E_100106(100106,"上传错误"),
 	E_100107(100107,"发送验证码错误"),
+	E_100108(100108,"参数错误"),
 
 	////////////////////////////////////网关服务异常编码11//////////////////////////
 
@@ -108,7 +109,7 @@ public enum CommonErrorCode implements ErrorCode {
 
 	private int code;
 	private String desc;
-		
+
 	public int getCode() {
 		return code;
 	}

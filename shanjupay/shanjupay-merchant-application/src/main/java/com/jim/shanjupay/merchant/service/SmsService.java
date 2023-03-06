@@ -13,4 +13,6 @@ public interface SmsService {
      * @param phone 手机号
      */
     String sendMsg(String phone);
+
+    void checkVerifiyCode(String verifiyKey,String verifiyCode);
 }

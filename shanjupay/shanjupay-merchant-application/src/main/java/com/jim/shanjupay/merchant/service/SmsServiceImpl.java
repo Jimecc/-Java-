@@ -1,6 +1,8 @@
 package com.jim.shanjupay.merchant.service;
 
 import com.alibaba.fastjson.JSON;
+import com.shanjupay.common.domain.BusinessException;
+import com.shanjupay.common.domain.CommonErrorCode;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
@@ -56,7 +58,28 @@ public class SmsServiceImpl implements SmsService{
         }
         Map result = (Map) bodyMap.get("result");
         String key = (String) result.get("key");
-        log.info("得到发送验证码的KEY");
+        log.info("得到发送验证码的KEY:"+key);
         return key;
+    }
+
+    @Override
+    public void checkVerifiyCode(String verifiyKey, String verifiyCode) throws BusinessException {
+        //校验验证码的url
+        String check_url = url+"/verify?name=sms&verificationCode="+verifiyCode+"&verificationKey="+verifiyKey;
+
+        Map bodyMap = null;
+        try {
+            //使用restTemplate请求验证码服务
+            ResponseEntity<Map> exchange = restTemplate.exchange(check_url, HttpMethod.POST, HttpEntity.EMPTY, Map.class);
+            log.info("请求验证码服务，得到响应:{}", JSON.toJSONString(exchange));
+            bodyMap = exchange.getBody();
+        }catch (Exception e){
+            e.printStackTrace();
+            throw new BusinessException(CommonErrorCode.E_100102);
+
+        }
+        if(bodyMap == null || bodyMap.get("result") == null || !(Boolean) bodyMap.get("result")){
+            throw new BusinessException(CommonErrorCode.E_100102);
+        }
     }
 }

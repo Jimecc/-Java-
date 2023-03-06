@@ -146,6 +146,11 @@ public class MyBatisPlusGenerator {
         autoGenerator.setTemplateEngine(new FreemarkerTemplateEngine());
         System.out.println("===================== MyBatis Plus Generator ==================");
 
+        if(IS_DTO){
+            globalConfig.setSwagger2(true);
+            globalConfig.setEntityName("%sDTO");
+            packageConfig.setEntity("dto");
+        }
         autoGenerator.execute();
 
         System.out.println("================= MyBatis Plus Generator Execute Complete ==================");
