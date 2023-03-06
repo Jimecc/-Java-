@@ -164,3 +164,45 @@
             14:27:13,743 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
 [${project.name}][${env:SERVER_PORT}] 2023‐03‐06
             14:27:43,783 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:27:59,759 [36mDEBUG[m [NettyServerWorker-3-7][HeartbeatHandler.java:74] ‐  [DUBBO] Received heartbeat from remote channel /192.168.199.177:65363, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:28:13,807 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:28:43,836 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:28:59,777 [36mDEBUG[m [NettyServerWorker-3-7][HeartbeatHandler.java:74] ‐  [DUBBO] Received heartbeat from remote channel /192.168.199.177:65363, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:29:13,863 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:29:43,909 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:29:59,798 [36mDEBUG[m [NettyServerWorker-3-7][HeartbeatHandler.java:74] ‐  [DUBBO] Received heartbeat from remote channel /192.168.199.177:65363, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:30:13,950 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:30:43,973 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:30:59,843 [36mDEBUG[m [NettyServerWorker-3-7][HeartbeatHandler.java:74] ‐  [DUBBO] Received heartbeat from remote channel /192.168.199.177:65363, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:31:13,989 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:31:44,007 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:31:59,952 [36mDEBUG[m [NettyServerWorker-3-7][HeartbeatHandler.java:74] ‐  [DUBBO] Received heartbeat from remote channel /192.168.199.177:65363, cause: The channel has no data-transmission exceeds a heartbeat period: 60000ms, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:14,022 [33mWARN[m [ThreadPoolTaskScheduler-1][DubboServiceMetadataRepository.java:216] ‐ Current application will subscribe all services(size:2) in registry, a lot of memory and CPU cycles may be used, thus it's strongly recommend you using the externalized property 'dubbo.cloud.subscribed-services' to specify the services
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:23,118 [33mWARN[m [NettyServerWorker-3-7][AbstractServer.java:213] ‐  [DUBBO] All clients has disconnected from /192.168.199.177:20893. You can graceful shutdown now., dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:23,123 [36mDEBUG[m [DubboServerHandler-192.168.199.177:20893-thread-34][DubboProtocol.java:174] ‐  [DUBBO] disconnected from /192.168.199.177:65363,url:dubbo://192.168.199.177:20893/com.shanjupay.merchant.api.MerchantService?anyhost=true&application=merchant-service&bean.name=ServiceBean:com.shanjupay.merchant.api.MerchantService&bind.ip=192.168.199.177&bind.port=20893&channel.readonly.sent=true&codec=dubbo&deprecated=false&dubbo=2.0.2&dynamic=true&generic=false&heartbeat=60000&interface=com.shanjupay.merchant.api.MerchantService&methods=queryMerchantByID&pid=3336&qos.enable=false&qos.port=22310&register=true&release=2.7.3&side=provider&timestamp=1678079349303, dubbo version: 2.7.3, current host: 192.168.199.177
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:24,198 [32mINFO[m [com.alibaba.nacos.naming.client.listener][DubboServiceDiscoveryAutoConfiguration.java:157] ‐ The event of the service instances[name : merchant-application , size : 0] change is about to be dispatched
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:24,204 [32mINFO[m [com.alibaba.nacos.naming.client.listener][AbstractSpringCloudRegistry.java:213] ‐ The Dubbo Service URL[ID : provider://192.168.199.177:20893/com.shanjupay.merchant.api.MerchantService] is being subscribed for service[name : merchant-application]
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:24,206 [32mINFO[m [com.alibaba.nacos.naming.client.listener][AbstractSpringCloudRegistry.java:223] ‐ The metadata of Dubbo service[key : com.shanjupay.merchant.api.MerchantService] can't be found when the subscribed service[name : merchant-application], and then try to initialize it
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:24,214 [36mDEBUG[m [com.alibaba.nacos.naming.client.listener][DubboServiceMetadataRepository.java:273] ‐ The metadata of Dubbo service[name : merchant-application] has been initialized
+[${project.name}][${env:SERVER_PORT}] 2023‐03‐06
+            14:32:24,217 [33mWARN[m [com.alibaba.nacos.naming.client.listener][AbstractSpringCloudRegistry.java:234] ‐ The metadata of Dubbo service[key : com.shanjupay.merchant.api.MerchantService] still can't be found, it could effect the further Dubbo service invocation
