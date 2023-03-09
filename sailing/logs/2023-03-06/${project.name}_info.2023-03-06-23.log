@@ -1,0 +1,1 @@
+[${project.name}][${env:SERVER_PORT}] 2023-03-06 23:49:17,308 INFO [Thread-11][ExecutorConfigurationSupport.java:208] - Shutting down ExecutorService 'applicationTaskExecutor'

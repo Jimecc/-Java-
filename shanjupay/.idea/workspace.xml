@@ -5,15 +5,17 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="af676df8-9b88-4e33-add3-e3037e2e5f86" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/util/QiniuUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/jim/demo/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/jim/demo/JavaInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../demo/src/main/java/com/jim/demo/JavaInterfaceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/service/FileService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/service/FileServiceImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../sailing/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/../sailing/logs/${project.name}_info.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/${project.name}_error.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_error.log" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/logs/${project.name}_info.log" beforeDir="false" afterPath="$PROJECT_DIR$/logs/${project.name}_info.log" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-common/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-common/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-common/shanjupay-common.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-common/shanjupay-common.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/shanjupay-merchant-application.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/jim/shanjupay/merchant/convert/MerchantConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/target/generated-sources/annotations/com/jim/shanjupay/merchant/convert/MerchantConvertImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/shanjupay-merchant-api.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-api/shanjupay-merchant-api.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/shanjupay-merchant-server.iml" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/shanjupay-merchant-server.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/util/QiniuUtils.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-common/src/main/java/com/shanjupay/common/util/QiniuUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/controller/MerchantController.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant-application/src/main/java/com/jim/shanjupay/merchant/controller/MerchantController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/target/generated-sources/annotations/com/shanjupay/merchant/convert/MerchantConvertImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/shanjupay-merchant/shanjupay-merchant-server/target/generated-sources/annotations/com/shanjupay/merchant/convert/MerchantConvertImpl.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -149,7 +151,14 @@
       <recent name="com.shanjupei.merchant" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.QiniuUtils">
+  <component name="RunDashboard">
+    <option name="configurationTypes">
+      <set>
+        <option value="SpringBootApplicationConfigurationType" />
+      </set>
+    </option>
+  </component>
+  <component name="RunManager" selected="Spring Boot.MerchantBootstrap">
     <configuration name="MerchantConvert" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="com.shanjupay.merchant.convert.MerchantConvert" />
       <module name="shanjupay-merchant-server" />
@@ -218,17 +227,17 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
-      <item itemvalue="Spring Boot.MerchantBootstrap" />
       <item itemvalue="Application.MyBatisPlusGenerator" />
       <item itemvalue="Application.MerchantConvert" />
       <item itemvalue="Application.QiniuUtils" />
+      <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
+      <item itemvalue="Spring Boot.MerchantBootstrap" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.QiniuUtils" />
-        <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
         <item itemvalue="Spring Boot.MerchantBootstrap" />
+        <item itemvalue="Spring Boot.MerchantApplicationBootstrap" />
+        <item itemvalue="Application.QiniuUtils" />
         <item itemvalue="Application.MerchantConvert" />
         <item itemvalue="Application.MyBatisPlusGenerator" />
       </list>
@@ -252,7 +261,9 @@
       <workItem from="1574404354823" duration="998000" />
       <workItem from="1678003857934" duration="19396000" />
       <workItem from="1678062488942" duration="10652000" />
-      <workItem from="1678077448312" duration="26029000" />
+      <workItem from="1678077448312" duration="27926000" />
+      <workItem from="1678170328636" duration="6001000" />
+      <workItem from="1678366480200" duration="3581000" />
     </task>
     <servers />
   </component>
